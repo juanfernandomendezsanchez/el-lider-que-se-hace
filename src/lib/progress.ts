@@ -17,6 +17,8 @@ export interface Progreso {
   repaso: { ultimoDia?: string };
   diagnostico?: { fecha: string; resultado: string; conteo: Record<string, number>; lider: number };
   gimnasio: { dias: string[] };
+  /** Días en que el delegado aprendió algo (lección, repaso o gimnasio). Alimenta la racha. */
+  actividad: string[];
   mapa: { fecha: string; puntajes: Record<string, number> }[];
   kit: { checklist: Record<string, boolean>; notas: Record<string, string>; reflexiones: Reflexion[] };
 }
@@ -39,6 +41,7 @@ const VACIO: Progreso = {
   cerebros: { completado: false },
   repaso: {},
   gimnasio: { dias: [] },
+  actividad: [],
   mapa: [],
   kit: { checklist: {}, notas: {}, reflexiones: [] },
 };
@@ -88,6 +91,9 @@ function asegurarCarga() {
   });
 }
 
+const conActividad = (p: Progreso): Progreso =>
+  p.actividad.includes(hoy()) ? p : { ...p, actividad: [...p.actividad, hoy()].slice(-120) };
+
 function actualizar(cambio: (p: Progreso) => Progreso) {
   asegurarCarga();
   estado = cambio(estado);
@@ -125,7 +131,7 @@ export const almacenamientoDisponible = () => disponible;
 export const acciones = {
   completarLeccion(id: string) {
     actualizar((p) =>
-      p.lecciones[id]?.completada ? p : { ...p, lecciones: { ...p.lecciones, [id]: { completada: true, fecha: hoy() } } },
+      conActividad(p.lecciones[id]?.completada ? p : { ...p, lecciones: { ...p.lecciones, [id]: { completada: true, fecha: hoy() } } }),
     );
   },
   registrarRespuesta(preguntaId: string, correcta: boolean) {
@@ -154,13 +160,13 @@ export const acciones = {
     actualizar((p) => ({ ...p, habito: { id, fecha: hoy() } }));
   },
   terminarRepasoDelDia() {
-    actualizar((p) => ({ ...p, repaso: { ultimoDia: hoy() } }));
+    actualizar((p) => conActividad({ ...p, repaso: { ultimoDia: hoy() } }));
   },
   guardarDiagnostico(resultado: string, conteo: Record<string, number>, lider: number) {
     actualizar((p) => ({ ...p, diagnostico: { fecha: hoy(), resultado, conteo, lider } }));
   },
   marcarPractica() {
-    actualizar((p) => (p.gimnasio.dias.includes(hoy()) ? p : { ...p, gimnasio: { dias: [...p.gimnasio.dias, hoy()].slice(-120) } }));
+    actualizar((p) => conActividad(p.gimnasio.dias.includes(hoy()) ? p : { ...p, gimnasio: { dias: [...p.gimnasio.dias, hoy()].slice(-120) } }));
   },
   guardarMapa(puntajes: Record<string, number>) {
     actualizar((p) => ({ ...p, mapa: [...p.mapa, { fecha: hoy(), puntajes }].slice(-20) }));
@@ -187,6 +193,12 @@ export const acciones = {
     actualizar((p) => ({ ...p, insignias: [...new Set([...p.insignias, ...ids])] }));
   },
 };
+
+/** Racha general: días seguidos con cualquier actividad (incluye el progreso guardado antes de existir la racha). */
+export function rachaGeneral(p: Progreso) {
+  const lecciones = Object.values(p.lecciones).map((l) => l.fecha);
+  return calcularRacha([...p.actividad, ...p.gimnasio.dias, ...lecciones]);
+}
 
 /** Días seguidos practicando, contando hasta hoy (o hasta ayer si hoy aún no practica). */
 export function calcularRacha(dias: string[]) {

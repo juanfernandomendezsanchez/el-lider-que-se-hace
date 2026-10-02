@@ -7,7 +7,7 @@ Plataforma educativa independiente. No es un sitio oficial de las Naciones Unida
 ## Secciones
 
 - **Portada:** «¿Quién maneja tu cerebro en una crisis?» y repaso espaciado («Repasa hoy»).
-- **Recorrido:** 12 lecciones de 5 a 8 minutos, cada una con su interactivo, un ejemplo de comité, «Pruébalo hoy» y preguntas de repaso.
+- **Recorrido:** ruta visual de 12 lecciones de 5 a 8 minutos. Cada lección se recorre paso a paso, una idea por pantalla (texto, interactivo, ejemplo de comité, preguntas de una en una con retroalimentación inmediata y «Pruébalo hoy»); las preguntas falladas vuelven al final y se puede retomar donde se dejó. Racha de días en la portada.
 - **Dos cerebros:** red neuronal del cerebro de líder vs. el de no líder, paso a paso, con modo proyección.
 - **Simulador de crisis:** 6 escenarios ramificados que terminan con el protocolo PAUSA.
 - **Gimnasio:** entrenador ¿Qué? ¿Y qué? ¿Y ahora qué?, respiración guiada, «Sí, y…» y «Detecta el secuestro», con racha de días.

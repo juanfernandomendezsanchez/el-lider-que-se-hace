@@ -32,12 +32,12 @@
   "portada": {
     "antetitulo": "Para delegados de Modelo de Naciones Unidas",
     "pregunta": "¿Quién maneja tu cerebro en una crisis?",
-    "bajada": "Cuando te atacan en el comité, tres pilotos quieren el volante: el instinto, la emoción y la razón. Liderar es entrenar a la razón para que lo recupere en segundos.",
+    "bajada": "Instinto, emoción y razón quieren el volante cuando te atacan en el comité. Liderar es entrenar a la razón para recuperarlo en segundos.",
     "accesos": [
       {
         "href": "/recorrido/",
         "titulo": "Empieza el recorrido",
-        "texto": "12 lecciones cortas, de 5 a 8 minutos cada una."
+        "texto": "12 lecciones de 5 minutos, una idea por pantalla."
       },
       {
         "href": "/practica/",
@@ -388,5 +388,60 @@
     "/kit/": "Kit para tu próximo modelo",
     "/persuasion/": "Laboratorio de persuasión",
     "/simulador/": "Simulador de crisis"
+  },
+  "leccionUI": {
+    "empezar": "Empezar",
+    "seguirDonde": "Seguir donde quedé",
+    "continuar": "Continuar",
+    "comprobar": "Comprobar",
+    "salir": "Salir de la lección",
+    "salirConfirmar": "¿Salir? Lo avanzado en esta lección queda guardado en este dispositivo.",
+    "pasoDe": "Paso {n} de {t}",
+    "probar": "Pruébalo",
+    "verQuePaso": "Ver qué pasó",
+    "laLeccion": "La lección",
+    "pregunta": "Pregunta",
+    "repetida": "Otra vez, ahora con calma",
+    "respuestaCorrecta": "Respuesta correcta",
+    "reto": "Tu reto de hoy · 2 minutos",
+    "retoNota": "No tienes que hacerlo ahora. Márcalo cuando lo hagas.",
+    "terminar": "Terminar lección",
+    "felicitacion": [
+      "¡Lección completada!",
+      "¡Bien hecho!",
+      "¡Un paso más!",
+      "¡Lo lograste!"
+    ],
+    "aciertos": "Aciertos",
+    "racha": "Racha",
+    "dias": "días",
+    "dia": "día",
+    "minutos": "Minutos",
+    "siguiente": "Siguiente lección",
+    "ruta": "Volver a la ruta",
+    "teclado": "Atajo: Enter para continuar"
+  },
+  "rutaUI": {
+    "empezar": "Empezar",
+    "seguir": "Sigue aquí",
+    "repasar": "Repasar",
+    "unidad": "Unidad",
+    "terminadas": "terminadas"
+  },
+  "inicioUI": {
+    "empezarTitulo": "Empieza por la lección 1",
+    "empezarTexto": "Cinco minutos. Una idea por pantalla.",
+    "empezarBoton": "Empezar ahora",
+    "seguirTitulo": "Tu siguiente paso",
+    "seguirBoton": "Continuar",
+    "terminasteTitulo": "Terminaste el recorrido",
+    "terminasteTexto": "Ahora entrena: el simulador y el gimnasio convierten lo aprendido en reflejo.",
+    "terminasteBoton": "Ir a practicar",
+    "racha": "días seguidos",
+    "rachaUno": "día seguido",
+    "rachaCero": "Empieza tu racha hoy",
+    "lecciones": "lecciones",
+    "explora": "Cuando quieras ir más allá",
+    "repasoPregunta": "Pregunta {n} de {t}"
   }
 }

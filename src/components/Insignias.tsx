@@ -51,7 +51,7 @@ export function InsigniasWatcher({ catalogo, extra }: { catalogo: Catalogo; extr
 
   return (
     <>
-      <div aria-live="polite" className="pointer-events-none fixed inset-x-0 bottom-20 z-40 flex justify-center px-4 md:bottom-6">
+      <div aria-live="polite" className="pointer-events-none fixed inset-x-0 bottom-20 z-[60] flex justify-center px-4 md:bottom-6">
         {aviso && (
           <div className="aparecer pointer-events-auto flex max-w-sm items-center gap-3 rounded-2xl border border-line bg-surface px-4 py-3 shadow-lg">
             <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-brand text-brand-ink">

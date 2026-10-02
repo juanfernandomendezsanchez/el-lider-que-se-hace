@@ -37,6 +37,8 @@ Cada lección tiene dos partes:
    - Tablas con `|`
    - Si escribes la línea `<Interactivo />`, el ejercicio aparece en ese lugar. Si no la escribes, aparece al final de la explicación.
 
+**Una idea por pantalla.** La lección se muestra en tarjetas, como en una app de idiomas. Cada párrafo separado por una **línea en blanco** se vuelve una pantalla (un párrafo muy corto se une al siguiente, y una lista o tabla se queda con la frase que la presenta si esta termina en «:»). Para que nadie se sature, procura que cada párrafo tenga menos de 70 palabras. Después del texto vienen, en este orden: el ejercicio, el ejemplo en el comité, las preguntas (de una en una) y «Pruébalo hoy».
+
 **Límite:** cada lección debe durar 8 minutos como máximo. Si la alargas demasiado, la plataforma no se publica y te avisa qué lección acortar.
 
 ## Editar archivos `.json`
