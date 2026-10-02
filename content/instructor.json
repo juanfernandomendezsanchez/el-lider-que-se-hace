@@ -1,0 +1,88 @@
+{
+  "titulo": "Modo instructor",
+  "bajada": "Presentación a pantalla completa con los momentos clave de la clase. Usa las flechas para avanzar, la tecla N para ver tus notas y F para pantalla completa.",
+  "empezar": "Empezar presentación",
+  "atajos": [
+    { "tecla": "→ / Espacio", "accion": "Siguiente" },
+    { "tecla": "←", "accion": "Anterior" },
+    { "tecla": "N", "accion": "Mostrar u ocultar notas" },
+    { "tecla": "F", "accion": "Pantalla completa" },
+    { "tecla": "Esc", "accion": "Salir" }
+  ],
+  "notas": "Notas del instructor",
+  "salir": "Salir",
+  "diapositiva": "Diapositiva",
+  "abrirCerebros": "Abrir Dos cerebros en modo proyección",
+  "diapositivas": [
+    {
+      "tipo": "titulo",
+      "antetitulo": "Provocación",
+      "titulo": "No vengo a enseñarles a ser líderes",
+      "texto": "El liderazgo no se aprende en una clase: se entrena.",
+      "notas": "Empieza con esta frase y deja un silencio. Pregunta: ¿quién cree que nació líder? Luego: ¿quién cree que se puede entrenar? Anota las manos."
+    },
+    {
+      "tipo": "barra",
+      "antetitulo": "Lo que traes vs. lo que construyes",
+      "titulo": "Lo heredado pesa cerca de un 30 %",
+      "texto": "Dato aproximado, de estudios con gemelos. El resto se construye con experiencia, práctica y errores.",
+      "valor": 30,
+      "notas": "Aclara que es una estimación. Cuenta la historia de la extrovertida y el tímido: la ventaja abre la puerta; lo entrenado decide quién se queda."
+    },
+    {
+      "tipo": "lista",
+      "antetitulo": "Contraste",
+      "titulo": "Cómo NO es un líder",
+      "items": ["El que más habla", "El explosivo", "El congelado", "El aficionado", "El veleta", "El dueño del documento", "El cazador de premios", "El automático"],
+      "notas": "Pide que cada uno elija en silencio el antimodelo que fue en su peor momento. Señala que el explosivo y el congelado fallan en lo mismo: no controlan su reacción."
+    },
+    {
+      "tipo": "comparar",
+      "antetitulo": "En el MUN no hay líderes",
+      "titulo": "Protagonista vs. líder",
+      "izquierda": { "titulo": "Protagonista", "items": ["Busca que lo vean", "Cuenta cuántas veces habló"] },
+      "derecha": { "titulo": "Líder", "items": ["Busca que el comité avance", "Cuenta cuántas personas siguen su idea"] },
+      "notas": "Nadie manda sobre nadie en un comité: por eso abundan los protagonistas. Y por eso mismo es el mejor gimnasio: solo funciona la influencia."
+    },
+    {
+      "tipo": "titulo",
+      "antetitulo": "La prueba de los 20 minutos",
+      "titulo": "Si sales 20 minutos, ¿tu bloque sigue avanzando?",
+      "texto": "Si se detiene, eras protagonista. Si sigue con tus ideas, eras líder.",
+      "notas": "Pide ejemplos reales de sus modelos. Cuenta el caso del comité de seguridad alimentaria."
+    },
+    {
+      "tipo": "piramide",
+      "antetitulo": "Ingeniería inversa",
+      "titulo": "Del resultado a la raíz",
+      "items": ["Dominio de uno mismo", "Calma", "Conocimiento y escucha", "Claridad y confianza", "Persuasión e influencia", "Resolución aprobada"],
+      "notas": "Construye la pirámide preguntando en voz alta «¿qué necesito antes?». Termina en la raíz: el dominio de uno mismo. Ejemplo de la delegada que sabía persuadir y perdió por ofenderse."
+    },
+    {
+      "tipo": "pilotos",
+      "antetitulo": "Los tres pilotos",
+      "titulo": "¿Quién maneja tu cerebro en una crisis?",
+      "notas": "Aclara que el cerebro triuno es una metáfora; lo respaldado es el secuestro emocional (Goleman) y los dos sistemas (Kahneman). Instinto y emoción = Sistema 1; razón = Sistema 2."
+    },
+    {
+      "tipo": "cerebros",
+      "antetitulo": "Los dos cerebros",
+      "titulo": "Mismas partes, distinto camino",
+      "texto": "Abre la red en modo proyección y recorre primero el cerebro de no líder y luego el de líder.",
+      "notas": "Usa el escenario de la acusación. En cada paso del líder, pregunta a la clase qué haría ese nodo en su caso."
+    },
+    {
+      "tipo": "pausa",
+      "antetitulo": "Cierre",
+      "titulo": "PAUSA",
+      "notas": "Recorre cada letra con un ejemplo. Muestra que es la misma pirámide recorrida hacia adelante. Pide que escriban PAUSA en una tarjeta antes de salir."
+    },
+    {
+      "tipo": "titulo",
+      "antetitulo": "Para llevarse",
+      "titulo": "No necesitas haber nacido líder",
+      "texto": "Necesitas entrenar el momento entre lo que te pasa y lo que respondes.",
+      "notas": "Invita a usar la plataforma antes de cada modelo: el gimnasio, el kit y la reflexión posterior."
+    }
+  ]
+}

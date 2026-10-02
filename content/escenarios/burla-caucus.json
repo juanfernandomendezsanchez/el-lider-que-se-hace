@@ -1,0 +1,47 @@
+{
+  "id": "burla-caucus",
+  "slug": "burla-en-el-caucus",
+  "orden": 3,
+  "titulo": "Burla en el caucus",
+  "resumen": "Presentas una idea y otro delegado se ríe frente a todo el grupo.",
+  "contexto": "Comité de Derechos Humanos, caucus libre. Propones crear un programa regional de becas para jóvenes refugiados.",
+  "temporizadorSeg": 30,
+  "siSeAcabaElTiempo": {
+    "consecuencia": "El grupo pasa a otra idea. La tuya queda descartada sin discusión.",
+    "explicacion": "Congelarse ante una burla es muy común. Una frase entrenada, como «Entendemos que suene ambiciosa…», te saca del bloqueo."
+  },
+  "inicio": "inicio",
+  "nodos": {
+    "inicio": {
+      "situacion": "Terminas de explicar tu idea y un delegado suelta una risa: «¿Becas? Qué tierno. Esto es un comité serio». Dos personas se ríen con él.",
+      "opciones": [
+        { "id": "a", "texto": "«Lo que no es serio es tu país, que no ha presentado ni una sola idea.»", "piloto": "instinto", "consecuencia": "El grupo se divide en dos bandos. Tu idea queda en segundo plano frente al pleito.", "explicacion": "El orgullo empujó al instinto. Ganaste la frase, perdiste el grupo.", "siguiente": "reaccion" },
+        { "id": "b", "texto": "Notas la vergüenza, respiras y dices: «Entiendo que suene ambiciosa. Está basada en un programa que ya funciona en nuestra región. ¿Qué parte les preocupa?»", "piloto": "razon", "consecuencia": "El ambiente cambia. Una delegada pregunta por los costos: ahora se discute tu idea, no la burla.", "explicacion": "Reencuadraste: de ataque a oportunidad de explicar mejor.", "siguiente": "razon" },
+        { "id": "c", "texto": "Te pones rojo, bajas la mirada y no vuelves a proponer nada.", "piloto": "emocion", "consecuencia": "Tu idea se pierde. El resto de la sesión no hablas.", "explicacion": "La vergüenza tomó el volante. Era una alarma, no una verdad.", "siguiente": "reaccion" }
+      ]
+    },
+    "razon": {
+      "situacion": "El delegado que se burló insiste: «Igual nadie lo va a pagar».",
+      "opciones": [
+        { "id": "d", "texto": "«Es una buena pregunta. ¿Y si tu delegación nos ayuda a diseñar el financiamiento? Sabemos que tienen experiencia con fondos regionales.»", "piloto": "razon", "consecuencia": "Se sorprende y acepta. Termina defendiendo la idea frente a otros países.", "explicacion": "Le diste una salida digna y lo hiciste parte. Convertiste a un opositor en coautor." },
+        { "id": "e", "texto": "«Si no vas a aportar, mejor no hables.»", "piloto": "instinto", "consecuencia": "Vuelve la tensión. Parte del grupo se aleja.", "explicacion": "La pausa hay que sostenerla también en el segundo ataque." },
+        { "id": "f", "texto": "«Ok, quizá tienes razón…», y retiras la idea.", "piloto": "emocion", "consecuencia": "La idea muere aunque había interés real en el grupo.", "explicacion": "Cediste por incomodidad, no por convicción: el veleta." }
+      ]
+    },
+    "reaccion": {
+      "situacion": "El caucus está por terminar. Queda un minuto para que cada país diga en qué cláusulas trabajará.",
+      "opciones": [
+        { "id": "g", "texto": "«Vuelvo a mi propuesta de becas: ya funciona en nuestra región. Busco dos países para redactarla. Quien la critique está invitado a mejorarla.»", "piloto": "razon", "consecuencia": "Dos países se suman. La idea sobrevive.", "explicacion": "Ordenaste y te aliaste. Nunca es tarde para recuperar el volante." },
+        { "id": "h", "texto": "Te quejas con la mesa de que se burlaron de ti.", "piloto": "emocion", "consecuencia": "La mesa pide respeto a todos, pero el tiempo se acaba y tu idea no avanza.", "explicacion": "Tenía sentido marcar el respeto, pero sin propuesta la idea no avanza." },
+        { "id": "i", "texto": "No dices nada.", "piloto": "instinto", "consecuencia": "Tu idea queda fuera del documento de trabajo.", "explicacion": "Huir también es instinto." }
+      ]
+    }
+  },
+  "respuestaModelo": [
+    { "paso": "Pausa", "accion": "Notas la vergüenza y la nombras: «esto es emoción, no una verdad». Exhalas." },
+    { "paso": "Analiza", "accion": "¿La burla es contra la idea o contra un detalle? ¿Quién se rió y quién no?" },
+    { "paso": "Ubica", "accion": "Tu país necesita la propuesta, no tener la última palabra." },
+    { "paso": "Ordena", "accion": "Qué: la propuesta es viable. Y qué: ya funciona en la región. Y ahora qué: ajustarla juntos." },
+    { "paso": "Alíate", "accion": "Invitas a quien se burló a mejorarla. Le das una salida digna." }
+  ]
+}

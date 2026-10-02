@@ -1,0 +1,392 @@
+{
+  "nombre": "El líder que se hace",
+  "descripcion": "Entiende, practica y recuerda cómo liderar en un comité de Modelo de Naciones Unidas, sobre todo en una crisis.",
+  "aviso": "Plataforma educativa independiente. No es un sitio oficial de las Naciones Unidas.",
+  "nav": [
+    {
+      "href": "/",
+      "texto": "Inicio",
+      "icono": "inicio"
+    },
+    {
+      "href": "/recorrido/",
+      "texto": "Recorrido",
+      "icono": "recorrido"
+    },
+    {
+      "href": "/practica/",
+      "texto": "Practicar",
+      "icono": "simulador"
+    },
+    {
+      "href": "/kit/",
+      "texto": "Kit",
+      "icono": "kit"
+    },
+    {
+      "href": "/mas/",
+      "texto": "Más",
+      "icono": "mas"
+    }
+  ],
+  "portada": {
+    "antetitulo": "Para delegados de Modelo de Naciones Unidas",
+    "pregunta": "¿Quién maneja tu cerebro en una crisis?",
+    "bajada": "Cuando te atacan en el comité, tres pilotos quieren el volante: el instinto, la emoción y la razón. Liderar es entrenar a la razón para que lo recupere en segundos.",
+    "accesos": [
+      {
+        "href": "/recorrido/",
+        "titulo": "Empieza el recorrido",
+        "texto": "12 lecciones cortas, de 5 a 8 minutos cada una."
+      },
+      {
+        "href": "/practica/",
+        "titulo": "Practica ahora",
+        "texto": "Simulador de crisis, gimnasio y laboratorio de persuasión."
+      },
+      {
+        "href": "/kit/",
+        "titulo": "Prepárate para tu próximo modelo",
+        "texto": "Checklist, tarjeta PAUSA para el teléfono y reflexión posterior."
+      }
+    ],
+    "pilotosTitulo": "Los tres pilotos",
+    "repasaHoyTitulo": "Repasa hoy",
+    "repasaHoyTexto": "Tres preguntas de lo que ya viste. Recordar es lo que fija lo aprendido.",
+    "repasaHoyListo": "Listo por hoy. Vuelve mañana o antes de tu próximo modelo.",
+    "habitoTitulo": "Tu hábito de esta semana",
+    "continuarTitulo": "Sigue donde quedaste",
+    "cierre": "No necesitas haber nacido líder. Necesitas entrenar el momento entre lo que te pasa y lo que respondes.",
+    "diagnostico": {
+      "titulo": "¿Qué delegado eres hoy?",
+      "texto": "10 situaciones de comité, 3 minutos. Descubre qué te frena y por dónde empezar.",
+      "boton": "Hacer el diagnóstico",
+      "resultado": "Tu último diagnóstico"
+    },
+    "cerebros": {
+      "titulo": "Dos cerebros, una crisis",
+      "texto": "Mira, paso a paso, por dónde viaja la señal en el cerebro de un líder y en el de alguien que no lidera.",
+      "boton": "Ver los dos cerebros"
+    }
+  },
+  "pilotos": {
+    "instinto": {
+      "nombre": "Instinto",
+      "texto": "Quiere sobrevivir: ataca, huye o se congela."
+    },
+    "emocion": {
+      "nombre": "Emoción",
+      "texto": "Siente y da la alarma: miedo, rabia, vergüenza."
+    },
+    "razon": {
+      "nombre": "Razón",
+      "texto": "Piensa, planea y negocia. Es la que lidera."
+    }
+  },
+  "modulos": [
+    {
+      "id": "contraste",
+      "titulo": "El contraste",
+      "texto": "Cómo no es un líder y por qué en el modelo escasean."
+    },
+    {
+      "id": "raiz",
+      "titulo": "La raíz",
+      "texto": "Del resultado a la raíz: cómo funciona tu cerebro bajo presión."
+    },
+    {
+      "id": "claridad",
+      "titulo": "Claridad e influencia",
+      "texto": "Escuchar, ordenar, persuadir y hablarle al instinto del otro."
+    },
+    {
+      "id": "piloto",
+      "titulo": "El piloto entrenado",
+      "texto": "Convertir lo aprendido en reflejo y llevarlo a la crisis."
+    }
+  ],
+  "insignias": [
+    {
+      "id": "modulo-contraste",
+      "titulo": "Veo el contraste",
+      "texto": "Completaste el módulo «El contraste».",
+      "regla": {
+        "tipo": "modulo",
+        "valor": "contraste"
+      },
+      "pendiente": "Completa las lecciones 1 a 3."
+    },
+    {
+      "id": "modulo-raiz",
+      "titulo": "Tengo suelo",
+      "texto": "Completaste el módulo «La raíz».",
+      "regla": {
+        "tipo": "modulo",
+        "valor": "raiz"
+      },
+      "pendiente": "Completa las lecciones 4 a 7."
+    },
+    {
+      "id": "modulo-claridad",
+      "titulo": "Hablo para sumar",
+      "texto": "Completaste el módulo «Claridad e influencia».",
+      "regla": {
+        "tipo": "modulo",
+        "valor": "claridad"
+      },
+      "pendiente": "Completa las lecciones 8 a 10."
+    },
+    {
+      "id": "modulo-piloto",
+      "titulo": "Piloto entrenado",
+      "texto": "Completaste el módulo «El piloto entrenado».",
+      "regla": {
+        "tipo": "modulo",
+        "valor": "piloto"
+      },
+      "pendiente": "Completa las lecciones 11 y 12."
+    },
+    {
+      "id": "cerebros",
+      "titulo": "Vi los dos caminos",
+      "texto": "Recorriste completo el cerebro de no líder y el de líder.",
+      "regla": {
+        "tipo": "cerebros"
+      },
+      "pendiente": "Recorre los dos caminos en Dos cerebros."
+    },
+    {
+      "id": "simulador",
+      "titulo": "Crisis atravesada",
+      "texto": "Terminaste tres escenarios del simulador.",
+      "regla": {
+        "tipo": "escenarios",
+        "valor": 3
+      },
+      "pendiente": "Termina tres escenarios del simulador."
+    },
+    {
+      "id": "gimnasio",
+      "titulo": "Constancia",
+      "texto": "Practicaste en el gimnasio tres días seguidos.",
+      "pendiente": "Practica en el gimnasio tres días seguidos.",
+      "regla": {
+        "tipo": "racha",
+        "valor": 3
+      }
+    },
+    {
+      "id": "mapa",
+      "titulo": "Me conozco",
+      "texto": "Trazaste tu mapa de líder.",
+      "pendiente": "Califícate en Mi mapa de líder.",
+      "regla": {
+        "tipo": "mapa"
+      }
+    },
+    {
+      "id": "kit",
+      "titulo": "Llego preparado",
+      "texto": "Completaste el checklist previo al modelo.",
+      "pendiente": "Completa el checklist del kit.",
+      "regla": {
+        "tipo": "checklist"
+      }
+    }
+  ],
+  "insigniasNota": "Las insignias marcan tu avance personal. Aquí no hay ranking ni competencia: el líder no caza premios.",
+  "ui": {
+    "siguiente": "Siguiente",
+    "anterior": "Anterior",
+    "reiniciar": "Volver a empezar",
+    "cerrar": "Cerrar",
+    "comprobar": "Comprobar",
+    "correcto": "¡Bien!",
+    "incorrecto": "No exactamente",
+    "minutos": "min",
+    "leccion": "Lección",
+    "completada": "Completada",
+    "ideaClave": "Idea clave",
+    "ejemplo": "Ejemplo en el comité",
+    "pruebaloHoy": "Pruébalo hoy · 2 minutos",
+    "repaso": "Repaso rápido",
+    "repasoTexto": "Responde de memoria. Cada respuesta trae su explicación.",
+    "leccionCompletada": "Lección completada",
+    "siguienteLeccion": "Siguiente lección",
+    "volverRecorrido": "Volver al recorrido",
+    "nuevaInsignia": "Nueva insignia",
+    "tema": "Cambiar entre modo claro y oscuro",
+    "saltar": "Saltar al contenido",
+    "progreso": "Tu progreso",
+    "deLecciones": "de 12 lecciones",
+    "sinAlmacenamiento": "Tu navegador no permite guardar el progreso (modo privado o almacenamiento bloqueado). Puedes usar la plataforma igual, pero se perderá al cerrar.",
+    "pruebaOtra": "prueba otra opción",
+    "principio": "¿Qué principio usa?",
+    "elige": "Elige uno",
+    "queOcurre": "Qué ocurre",
+    "preguntaClave": "Pregunta clave",
+    "verCerebros": "Mira PAUSA paso a paso en Dos cerebros",
+    "probarOtraVez": "Probar otra vez",
+    "voltear": "Voltear: ¿qué le falta? ↻",
+    "verQueHace": "Ver qué hace",
+    "verQueFalta": "Ver qué le falta",
+    "leFalta": "Le falta",
+    "loTrabajasEn": "Lo trabajas en:",
+    "leccionMin": "lección",
+    "volver": "↺ Volver",
+    "armarDeNuevo": "Armar de nuevo",
+    "piso": "Piso",
+    "era": "Era",
+    "aciertosDe": "de",
+    "pilotosTodos": "Reconoces a los tres pilotos.",
+    "pilotosAlgunos": "Reconocer al piloto es el primer paso para devolverle el volante a la razón.",
+    "porcentajeHeredado": "% heredado",
+    "rondas": "Rondas",
+    "caminos": "Caminos",
+    "pasosPausa": "Pasos de PAUSA",
+    "piramideAria": "Pirámide, de la raíz a la punta",
+    "migas": "Migas",
+    "de": "de",
+    "volverGimnasio": "Volver al gimnasio",
+    "offline": "Sin conexión: estás viendo la versión guardada."
+  },
+  "recorrido": {
+    "titulo": "El líder que se hace",
+    "bajada": "Doce lecciones en orden. Empiezan por el contraste, cómo NO es un líder, y terminan en una herramienta para la crisis.",
+    "insigniasTitulo": "Tus insignias"
+  },
+  "cerebrosUI": {
+    "noLider": "Cerebro de no líder",
+    "lider": "Cerebro de líder",
+    "paso": "Paso",
+    "escenario": "Elige una crisis",
+    "proyeccion": "Modo proyección",
+    "salirProyeccion": "Salir de proyección",
+    "tocaNodo": "Toca un nodo para saber qué hace",
+    "funcion": "Qué hace",
+    "enLider": "En el cerebro de líder",
+    "enNoLider": "En el cerebro de no líder",
+    "resultado": "Resultado",
+    "respuesta": "Lo que dice",
+    "reiniciar": "Ver otra vez desde el inicio",
+    "saberMas": "Para saber más",
+    "verFuentes": "Ver todas las fuentes"
+  },
+  "simuladorUI": {
+    "titulo": "Simulador de crisis",
+    "bajada": "Situaciones reales de comité. Decide, mira qué pasa y descubre qué piloto tomó cada decisión.",
+    "empezar": "Empezar",
+    "conReloj": "Con reloj de 30 segundos",
+    "segundos": "s",
+    "contexto": "Contexto",
+    "decision": "Decisión",
+    "pilotoTomo": "Esta decisión la tomó",
+    "consecuencia": "En el comité",
+    "porQue": "Por qué",
+    "continuar": "Continuar",
+    "verResumen": "Ver resumen",
+    "seAcaboElTiempo": "Se acabó el tiempo",
+    "resumen": "Tus decisiones",
+    "respuestaModelo": "Respuesta modelo con PAUSA",
+    "repetir": "Repetir escenario",
+    "otros": "Otros escenarios",
+    "jugado": "Ya lo jugaste",
+    "decisiones": "decisiones"
+  },
+  "navEscritorio": [
+    {
+      "href": "/recorrido/",
+      "texto": "Recorrido"
+    },
+    {
+      "href": "/cerebros/",
+      "texto": "Dos cerebros"
+    },
+    {
+      "href": "/practica/",
+      "texto": "Practicar"
+    },
+    {
+      "href": "/mi-mapa/",
+      "texto": "Mi mapa"
+    },
+    {
+      "href": "/kit/",
+      "texto": "Kit"
+    },
+    {
+      "href": "/mas/",
+      "texto": "Más"
+    }
+  ],
+  "practica": {
+    "titulo": "Practicar",
+    "bajada": "Entender no basta: hay que repetir con poca presión para que salga solo con mucha.",
+    "tarjetas": [
+      {
+        "href": "/simulador/",
+        "titulo": "Simulador de crisis",
+        "texto": "Seis crisis de comité. Decide y mira qué piloto tomó cada decisión."
+      },
+      {
+        "href": "/gimnasio/",
+        "titulo": "Gimnasio",
+        "texto": "Ejercicios de 1 a 3 minutos para entrenar el piloto automático."
+      },
+      {
+        "href": "/persuasion/",
+        "titulo": "Laboratorio de persuasión",
+        "texto": "Los 7 principios, las 6 claves y el constructor de propuesta."
+      },
+      {
+        "href": "/diagnostico/",
+        "titulo": "Diagnóstico",
+        "texto": "¿Qué delegado eres hoy? Descubre qué te frena."
+      }
+    ]
+  },
+  "mas": {
+    "titulo": "Más",
+    "enlaces": [
+      {
+        "href": "/cerebros/",
+        "titulo": "Dos cerebros",
+        "texto": "La red neuronal: cerebro de líder vs. de no líder."
+      },
+      {
+        "href": "/mi-mapa/",
+        "titulo": "Mi mapa de líder",
+        "texto": "Autoevaluación de 8 habilidades y plan personal."
+      },
+      {
+        "href": "/diagnostico/",
+        "titulo": "Diagnóstico",
+        "texto": "¿Qué delegado eres hoy?"
+      },
+      {
+        "href": "/instructor/",
+        "titulo": "Modo instructor",
+        "texto": "Presentación para dar la clase."
+      },
+      {
+        "href": "/saber-mas/",
+        "titulo": "Para saber más",
+        "texto": "Fuentes y avisos."
+      }
+    ],
+    "instalarTitulo": "Úsala sin internet",
+    "instalarTexto": "Después de la primera visita, la plataforma funciona sin conexión. En el teléfono, usa «Agregar a pantalla de inicio» en el menú del navegador para instalarla.",
+    "instalar": "Instalar en este dispositivo",
+    "offlineListo": "Lista para usar sin conexión."
+  },
+  "rutas": {
+    "/gimnasio/respiracion/": "Respiración guiada",
+    "/gimnasio/que-y-que/": "Entrenador ¿Qué? ¿Y qué? ¿Y ahora qué?",
+    "/gimnasio/si-y/": "Juego «Sí, y…»",
+    "/gimnasio/secuestro/": "Detecta el secuestro",
+    "/gimnasio/": "Gimnasio",
+    "/kit/": "Kit para tu próximo modelo",
+    "/persuasion/": "Laboratorio de persuasión",
+    "/simulador/": "Simulador de crisis"
+  }
+}

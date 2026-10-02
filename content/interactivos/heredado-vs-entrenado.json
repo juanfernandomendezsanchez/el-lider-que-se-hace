@@ -1,0 +1,14 @@
+{
+  "pregunta": "Mueve el control: ¿qué porcentaje de quién llega a liderar crees que se explica por lo heredado?",
+  "respuesta": 30,
+  "boton": "Ver la respuesta",
+  "etiquetaHeredado": "Heredado",
+  "etiquetaEntrenado": "Se construye",
+  "revelado": "Algunos estudios con gemelos lo estiman en cerca de un 30 %. Es un dato aproximado. El resto se construye con experiencia, práctica y errores.",
+  "historiaTitulo": "Ahora mira a dos delegados en tres momentos",
+  "momentos": ["Llegada", "Primera crisis", "Final del modelo"],
+  "delegados": [
+    { "nombre": "La extrovertida", "momentos": ["Entra hablando con soltura. Todos la notan.", "En la primera crisis la acusan y responde con un ataque.", "Pierde dos aliados. Su soltura no alcanzó."] },
+    { "nombre": "El tímido", "momentos": ["Casi no pide la palabra.", "Respira, ordena su respuesta en tres partes y propone una salida.", "El bloque lo busca para redactar."] }
+  ]
+}

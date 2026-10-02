@@ -1,0 +1,313 @@
+[
+  {
+    "id": "01-a",
+    "leccionId": "01",
+    "enunciado": "Según los estudios con gemelos, ¿cuánto pesa aproximadamente lo heredado en quién llega a liderar?",
+    "opciones": [
+      { "texto": "Cerca del 90 %: el líder nace", "correcta": false, "explicacion": "Es al revés. Lo heredado pesa, pero es la parte menor." },
+      { "texto": "Cerca del 30 %; el resto se construye", "correcta": true, "explicacion": "Es una estimación aproximada. Lo que más pesa se entrena con experiencia, práctica y errores." },
+      { "texto": "Nada: cualquiera es igual de líder", "correcta": false, "explicacion": "Hay ventajas de nacimiento, como la facilidad para hablar. Solo que no deciden el resultado." }
+    ]
+  },
+  {
+    "id": "01-b",
+    "leccionId": "01",
+    "enunciado": "En el ejemplo de los dos delegados, ¿qué decide quién termina liderando el bloque?",
+    "opciones": [
+      { "texto": "Quién habla con más soltura desde el inicio", "correcta": false, "explicacion": "La soltura abre la puerta, pero la extrovertida explotó en la primera crisis." },
+      { "texto": "Quién entrena las habilidades correctas", "correcta": true, "explicacion": "Exacto. La ventaja de nacimiento abre la puerta; lo entrenado decide quién se queda adentro." }
+    ]
+  },
+  {
+    "id": "02-a",
+    "leccionId": "02",
+    "enunciado": "¿Qué tienen en común el explosivo y el congelado?",
+    "opciones": [
+      { "texto": "A los dos les falta estudiar la política de su país", "correcta": false, "explicacion": "Ese es el aficionado. El congelado incluso sabe la respuesta." },
+      { "texto": "Ninguno controla su propia reacción", "correcta": true, "explicacion": "Uno ataca y el otro se apaga, pero en los dos manda la alarma. Esa es la pista que sigue todo el recorrido." },
+      { "texto": "Los dos hablan demasiado", "correcta": false, "explicacion": "El congelado casi no habla. Lo que comparten es que la presión decide por ellos." }
+    ]
+  },
+  {
+    "id": "02-b",
+    "leccionId": "02",
+    "enunciado": "Un delegado firma una resolución «porque ya todos firmaron». ¿Qué antimodelo es?",
+    "opciones": [
+      { "texto": "El veleta", "correcta": false, "explicacion": "El veleta cambia de postura con cada presión. Se parece, pero firmar por inercia es otra cosa." },
+      { "texto": "El automático", "correcta": true, "explicacion": "Responde a la prueba social sin pensar. Le falta una pausa antes de ceder." },
+      { "texto": "El dueño del documento", "correcta": false, "explicacion": "El dueño del documento no deja escribir a nadie; no firma lo que otros le ponen enfrente." }
+    ]
+  },
+  {
+    "id": "02-c",
+    "leccionId": "02",
+    "enunciado": "¿Qué le falta al que más habla?",
+    "opciones": [
+      { "texto": "Escuchar y saber cuándo callar", "correcta": true, "explicacion": "Confunde micrófono con liderazgo. Escuchar le daría la información para sumar a otros." },
+      { "texto": "Más tiempo en la lista de oradores", "correcta": false, "explicacion": "Tiempo le sobra. Hablar más no lo acerca a que otros sigan su idea." }
+    ]
+  },
+  {
+    "id": "03-a",
+    "leccionId": "03",
+    "enunciado": "Sales 20 minutos del comité y tu bloque se detiene a esperarte. ¿Qué eras?",
+    "opciones": [
+      { "texto": "Líder: sin ti no avanzan", "correcta": false, "explicacion": "Parece un elogio, pero significa que todo dependía de tu voz." },
+      { "texto": "Protagonista", "correcta": true, "explicacion": "El líder logra que otros hagan suyas sus ideas y sigan avanzando sin él." }
+    ]
+  },
+  {
+    "id": "03-b",
+    "leccionId": "03",
+    "enunciado": "¿Por qué el MUN es un gran gimnasio de liderazgo?",
+    "opciones": [
+      { "texto": "Porque premia al que más habla", "correcta": false, "explicacion": "Eso explica por qué sobran protagonistas, no por qué entrena líderes." },
+      { "texto": "Porque nadie manda: solo funciona la influencia", "correcta": true, "explicacion": "Sin autoridad sobre nadie, la única herramienta es lograr que otros quieran seguirte." },
+      { "texto": "Porque el presidente de mesa elige a los líderes", "correcta": false, "explicacion": "La mesa modera; no designa líderes. El liderazgo se gana con influencia." }
+    ]
+  },
+  {
+    "id": "03-c",
+    "leccionId": "03",
+    "enunciado": "¿Cómo mide su éxito un líder en el comité?",
+    "opciones": [
+      { "texto": "Por cuántas personas siguen su idea", "correcta": true, "explicacion": "El protagonista cuenta intervenciones; el líder cuenta personas que avanzan con su idea." },
+      { "texto": "Por cuántas veces habló", "correcta": false, "explicacion": "Esa es la métrica del protagonista." }
+    ]
+  },
+  {
+    "id": "04-a",
+    "leccionId": "04",
+    "enunciado": "En la pirámide de la ingeniería inversa, ¿qué está en la raíz?",
+    "opciones": [
+      { "texto": "La persuasión", "correcta": false, "explicacion": "La persuasión está arriba, cerca de la punta. Es el resultado." },
+      { "texto": "El conocimiento", "correcta": false, "explicacion": "Está en medio: depende de que tu cabeza esté en calma." },
+      { "texto": "El dominio de uno mismo", "correcta": true, "explicacion": "Sentir la presión sin que la presión decida por ti. Si este piso falla, todo lo de arriba se cae." }
+    ]
+  },
+  {
+    "id": "04-b",
+    "leccionId": "04",
+    "enunciado": "La delegada que sabía todas las técnicas de persuasión perdió el caucus. ¿Qué falló?",
+    "opciones": [
+      { "texto": "Su suelo: el dominio de sí misma", "correcta": true, "explicacion": "Se ofendió y respondió acusando. Las técnicas no sirven con la alarma al mando." },
+      { "texto": "Le faltaba aprender más técnicas", "correcta": false, "explicacion": "Las sabía todas. El problema estaba más abajo en la pirámide." }
+    ]
+  },
+  {
+    "id": "05-a",
+    "leccionId": "05",
+    "enunciado": "¿Qué pasa con lo que practicas muchas veces?",
+    "opciones": [
+      { "texto": "Pasa al Sistema 1 y libera atención", "correcta": true, "explicacion": "Como manejar: al principio piensas en cada pedal, después conversas mientras manejas." },
+      { "texto": "Siempre necesita del Sistema 2", "correcta": false, "explicacion": "Al contrario: la práctica lo vuelve automático y deja al Sistema 2 libre." },
+      { "texto": "Se olvida más rápido", "correcta": false, "explicacion": "Lo practicado se fija; justamente por eso conviene practicar lo correcto." }
+    ]
+  },
+  {
+    "id": "05-b",
+    "leccionId": "05",
+    "enunciado": "¿Por qué el delegado nuevo respondió tarde y mal?",
+    "opciones": [
+      { "texto": "Porque no tenía talento", "correcta": false, "explicacion": "No se trataba de talento, sino de cuánta atención le quedaba libre." },
+      { "texto": "Porque gastó su atención en nervios, palabras y memoria", "correcta": true, "explicacion": "La atención consciente es un presupuesto. Si se gasta en calmarte, no queda para pensar." }
+    ]
+  },
+  {
+    "id": "05-c",
+    "leccionId": "05",
+    "enunciado": "¿Cuál es una debilidad del Sistema 1?",
+    "opciones": [
+      { "texto": "Es lento y cansa", "correcta": false, "explicacion": "Eso describe al Sistema 2." },
+      { "texto": "Se equivoca con seguridad y se deja llevar por la emoción", "correcta": true, "explicacion": "Es rapidísimo, pero no duda. Por eso a veces necesita que el Sistema 2 lo corrija." }
+    ]
+  },
+  {
+    "id": "06-a",
+    "leccionId": "06",
+    "enunciado": "¿Qué es un secuestro emocional, según Goleman?",
+    "opciones": [
+      { "texto": "Cuando la emoción dispara una reacción antes de que la razón evalúe", "correcta": true, "explicacion": "El Sistema 1 toma el volante y el Sistema 2 ni se entera." },
+      { "texto": "Cuando otro delegado te manipula", "correcta": false, "explicacion": "La manipulación viene de afuera; el secuestro ocurre dentro de tu cabeza." },
+      { "texto": "Cuando decides con calma no responder", "correcta": false, "explicacion": "Eso es justo lo contrario: la razón al mando." }
+    ]
+  },
+  {
+    "id": "06-b",
+    "leccionId": "06",
+    "enunciado": "¿Qué dice la neurociencia actual del modelo de los tres cerebros?",
+    "opciones": [
+      { "texto": "Que es exacto: hay tres capas separadas", "correcta": false, "explicacion": "No. El cerebro funciona en redes conectadas." },
+      { "texto": "Que es una simplificación útil como metáfora", "correcta": true, "explicacion": "Lo usamos porque se entiende rápido y ayuda a recordar, no como descripción literal." }
+    ]
+  },
+  {
+    "id": "06-c",
+    "leccionId": "06",
+    "enunciado": "Te acusan en una actualización de crisis. ¿Qué respuesta viene de la razón?",
+    "opciones": [
+      { "texto": "«¡Falso! El que financia es otro.»", "correcta": false, "explicacion": "Es el instinto atacando. Abre una guerra con un posible aliado." },
+      { "texto": "Pedir pruebas y proponer una verificación", "correcta": true, "explicacion": "La alarma sonó, pero la razón recuperó el volante. Quedas como el adulto del comité." },
+      { "texto": "Quedarse callado hasta que pase", "correcta": false, "explicacion": "Congelarse también es una reacción del instinto." }
+    ]
+  },
+  {
+    "id": "07-a",
+    "leccionId": "07",
+    "enunciado": "¿Cuál es el orden de los tres pasos del dominio de uno mismo?",
+    "opciones": [
+      { "texto": "Frenar, reencuadrar, notar", "correcta": false, "explicacion": "No puedes frenar algo que todavía no notaste." },
+      { "texto": "Notar, frenar, reencuadrar", "correcta": true, "explicacion": "Primero reconoces la señal, después compras tiempo y luego cambias la historia que te cuentas." }
+    ]
+  },
+  {
+    "id": "07-b",
+    "leccionId": "07",
+    "enunciado": "¿Qué tipo de respiración ayuda a frenar?",
+    "opciones": [
+      { "texto": "Inhalar rápido varias veces", "correcta": false, "explicacion": "Eso suele activar más." },
+      { "texto": "Botar el aire más lento de lo que lo tomas", "correcta": true, "explicacion": "Las exhalaciones largas bajan la ansiedad antes de hablar." },
+      { "texto": "Aguantar la respiración", "correcta": false, "explicacion": "No ayuda a calmarte y te deja sin aire para hablar." }
+    ]
+  },
+  {
+    "id": "07-c",
+    "leccionId": "07",
+    "enunciado": "¿Cuál es un buen reencuadre de «me están atacando»?",
+    "opciones": [
+      { "texto": "«Tengo que defenderme ya.»", "correcta": false, "explicacion": "Esa historia le entrega el volante al instinto." },
+      { "texto": "«Es la oportunidad de mostrar cómo resuelve mi país.»", "correcta": true, "explicacion": "Convierte la amenaza en oportunidad y le devuelve el volante a la razón." }
+    ]
+  },
+  {
+    "id": "08-a",
+    "leccionId": "08",
+    "enunciado": "En el molde de tres partes, ¿qué va en «¿Y ahora qué?»?",
+    "opciones": [
+      { "texto": "Por qué importa el tema", "correcta": false, "explicacion": "Eso va en «¿Y qué?»." },
+      { "texto": "El siguiente paso que propones", "correcta": true, "explicacion": "Es la salida concreta: una enmienda, una moción, una invitación." },
+      { "texto": "Una crítica al otro país", "correcta": false, "explicacion": "El molde busca avanzar, no atacar." }
+    ]
+  },
+  {
+    "id": "08-b",
+    "leccionId": "08",
+    "enunciado": "¿Qué distingue al profesional del aficionado, según Cardone?",
+    "opciones": [
+      { "texto": "El profesional estudia tanto que empieza a predecir", "correcta": true, "explicacion": "Anticipa objeciones, y cada predicción acertada baja la alarma." },
+      { "texto": "El profesional improvisa mejor", "correcta": false, "explicacion": "Improvisa sobre una base estudiada, no en el vacío." }
+    ]
+  },
+  {
+    "id": "08-c",
+    "leccionId": "08",
+    "enunciado": "En un comité, ¿qué significa «mirar y ver»?",
+    "opciones": [
+      { "texto": "Mirar fijo al que habla", "correcta": false, "explicacion": "Es más que contacto visual." },
+      { "texto": "Escuchar todo y notar quién impulsa, quién calla y quién cambia", "correcta": true, "explicacion": "Esa observación es la materia prima para saber con quién aliarte." }
+    ]
+  },
+  {
+    "id": "09-a",
+    "leccionId": "09",
+    "enunciado": "«Ya firmaron doce países, tres de tu región.» ¿Qué principio usa?",
+    "opciones": [
+      { "texto": "Prueba social", "correcta": true, "explicacion": "Seguimos lo que hacen otros parecidos a nosotros. Si es verdad, es persuasión honesta." },
+      { "texto": "Reciprocidad", "correcta": false, "explicacion": "La reciprocidad es devolver algo que recibiste." },
+      { "texto": "Autoridad", "correcta": false, "explicacion": "La autoridad se apoya en quien sabe: datos, resoluciones previas." }
+    ]
+  },
+  {
+    "id": "09-b",
+    "leccionId": "09",
+    "enunciado": "¿Cuál es la diferencia entre persuadir y manipular?",
+    "opciones": [
+      { "texto": "Ninguna, si funciona", "correcta": false, "explicacion": "La manipulación funciona una vez y destruye tu credibilidad en todo el modelo." },
+      { "texto": "Persuadir ayuda al otro a ver por qué le conviene; manipular lo engaña", "correcta": true, "explicacion": "Los mismos principios, con verdad o con engaño, tienen resultados muy distintos." }
+    ]
+  },
+  {
+    "id": "09-c",
+    "leccionId": "09",
+    "enunciado": "Te dicen «se acaba el tiempo, firma ya». ¿Qué haces?",
+    "opciones": [
+      { "texto": "Firmo para no quedar fuera", "correcta": false, "explicacion": "Es tu Sistema 1 respondiendo a la escasez." },
+      { "texto": "Noto la presión, freno y pregunto si le conviene a mi país", "correcta": true, "explicacion": "Así detectas el atajo y decides con el Sistema 2." }
+    ]
+  },
+  {
+    "id": "10-a",
+    "leccionId": "10",
+    "enunciado": "Un país defiende una cláusula que no te sirve. ¿Qué baja la amenaza?",
+    "opciones": [
+      { "texto": "Exigir que la retire", "correcta": false, "explicacion": "Lo arrinconas: su instinto se cierra antes de escucharte." },
+      { "texto": "Ofrecer una enmienda amistosa", "correcta": true, "explicacion": "Le das una salida digna: puede ceder sin perder." },
+      { "texto": "Ignorarlo hasta la votación", "correcta": false, "explicacion": "Pierdes la oportunidad de sumarlo." }
+    ]
+  },
+  {
+    "id": "10-b",
+    "leccionId": "10",
+    "enunciado": "¿Qué diferencia a la influencia de la persuasión?",
+    "opciones": [
+      { "texto": "La influencia hace que te sigan aunque no estés", "correcta": true, "explicacion": "Es lo que mide la prueba de los 20 minutos." },
+      { "texto": "La influencia es persuadir más fuerte", "correcta": false, "explicacion": "No es intensidad, es duración: la influencia sigue funcionando sin ti." }
+    ]
+  },
+  {
+    "id": "10-c",
+    "leccionId": "10",
+    "enunciado": "«Sin acuerdo sigue la crisis; con acuerdo hay alto al fuego.» ¿Qué clave usa?",
+    "opciones": [
+      { "texto": "Contraste", "correcta": true, "explicacion": "El instinto decide mejor viendo un antes y un después." },
+      { "texto": "Principio y fin", "correcta": false, "explicacion": "Esa clave trata de abrir y cerrar con tu propuesta." },
+      { "texto": "Visual", "correcta": false, "explicacion": "Sería visual si lo dibujaras." }
+    ]
+  },
+  {
+    "id": "11-a",
+    "leccionId": "11",
+    "enunciado": "¿Cómo se entrena una habilidad para que salga sola en una crisis?",
+    "opciones": [
+      { "texto": "Esperando a sentirse listo", "correcta": false, "explicacion": "La seguridad viene de practicar, no de esperar." },
+      { "texto": "Repitiendo con poca presión hasta que sale con mucha", "correcta": true, "explicacion": "Así pasa al Sistema 1 y libera atención para liderar." }
+    ]
+  },
+  {
+    "id": "11-b",
+    "leccionId": "11",
+    "enunciado": "¿Por qué conviene practicar lo correcto desde el principio?",
+    "opciones": [
+      { "texto": "Porque el Sistema 1 también aprende lo malo", "correcta": true, "explicacion": "Si siempre atacas cuando te atacan, eso se vuelve tu automático." },
+      { "texto": "Porque los errores no enseñan nada", "correcta": false, "explicacion": "Los errores enseñan, sobre todo si después te preguntas qué funcionó y qué no." }
+    ]
+  },
+  {
+    "id": "12-a",
+    "leccionId": "12",
+    "enunciado": "¿Qué significa la U de PAUSA?",
+    "opciones": [
+      { "texto": "Unir al bloque", "correcta": false, "explicacion": "Sumar apoyos es la última A: Alíate." },
+      { "texto": "Ubica: recuerda qué dice y necesita tu país", "correcta": true, "explicacion": "Es tu brújula antes de ordenar la respuesta." },
+      { "texto": "Urgencia", "correcta": false, "explicacion": "PAUSA existe justamente para no responder desde la urgencia." }
+    ]
+  },
+  {
+    "id": "12-b",
+    "leccionId": "12",
+    "enunciado": "¿Cuál es el camino rojo?",
+    "opciones": [
+      { "texto": "Crisis, alarma, instinto, reacción", "correcta": true, "explicacion": "Dos pasos después de la alarma, y pierdes credibilidad y aliados." },
+      { "texto": "Crisis, alarma, pausa, análisis", "correcta": false, "explicacion": "Ese es el inicio del camino verde." }
+    ]
+  },
+  {
+    "id": "12-c",
+    "leccionId": "12",
+    "enunciado": "¿Qué relación tiene PAUSA con la pirámide de la lección 4?",
+    "opciones": [
+      { "texto": "Ninguna", "correcta": false, "explicacion": "Tienen todo que ver." },
+      { "texto": "Es la misma pirámide recorrida hacia adelante", "correcta": true, "explicacion": "Empieza en el dominio de uno mismo y termina en la influencia." }
+    ]
+  }
+]

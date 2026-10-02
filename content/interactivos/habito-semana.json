@@ -1,0 +1,17 @@
+{
+  "intro": "Cada habilidad tiene algo que pasa a automático y una forma de entrenarla. Elige una sola para esta semana.",
+  "automatico": "Qué pasa a automático",
+  "entrenar": "Cómo entrenarla",
+  "elegir": "Elegir este hábito",
+  "elegido": "Tu hábito de esta semana",
+  "elegidoTexto": "Lo verás en la portada como recordatorio. Puedes cambiarlo cuando quieras.",
+  "habitos": [
+    { "id": "dominio", "habilidad": "Dominio de uno mismo", "automatico": "Respirar y pausar antes de responder", "entrenar": "Una exhalación larga antes de cada intervención, incluso sin nervios." },
+    { "id": "comunicacion", "habilidad": "Comunicación", "automatico": "Responder con ¿Qué? ¿Y qué? ¿Y ahora qué?", "entrenar": "Responder preguntas al azar con el molde, a diario, en 30 segundos." },
+    { "id": "escucha", "habilidad": "Escucha", "automatico": "Notar quién impulsa cada idea", "entrenar": "En cada sesión, anotar qué quiere cada país antes de hablar." },
+    { "id": "conocimiento", "habilidad": "Conocimiento y predicción", "automatico": "Saber qué dice tu país sin buscarlo", "entrenar": "Antes del modelo, escribir las 5 objeciones más probables y su respuesta." },
+    { "id": "persuasion", "habilidad": "Persuasión", "automatico": "Buscar el sí pequeño antes del grande", "entrenar": "En cada caucus, conseguir un acuerdo mínimo antes de pedir la firma." },
+    { "id": "influencia", "habilidad": "Empatía e influencia", "automatico": "Ofrecer salida digna en vez de atacar", "entrenar": "Practicar en parejas el «sí, y…»: solo puedes construir sobre lo que dijo el otro." },
+    { "id": "seguridad", "habilidad": "Seguridad", "automatico": "Confiar en que sabrás manejar la presión", "entrenar": "Hablar en cada sesión, aunque sea una intervención corta." }
+  ]
+}

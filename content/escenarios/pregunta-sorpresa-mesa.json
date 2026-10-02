@@ -1,0 +1,48 @@
+{
+  "id": "pregunta-mesa",
+  "slug": "pregunta-sorpresa-de-la-mesa",
+  "orden": 5,
+  "titulo": "Pregunta sorpresa de la mesa",
+  "resumen": "La presidencia te pide, sin aviso, que expliques la postura de tu país sobre un punto que no preparaste.",
+  "contexto": "Consejo Económico y Social. Representas a un país exportador de café. El tema es la deuda externa, pero la mesa cambia de subtema: aranceles agrícolas.",
+  "temporizadorSeg": 30,
+  "siSeAcabaElTiempo": {
+    "consecuencia": "La mesa dice «la delegación no tiene postura» y pasa al siguiente país.",
+    "explicacion": "Con un molde automático (¿Qué? ¿Y qué? ¿Y ahora qué?) siempre tienes cómo empezar, aunque no sepas todo."
+  },
+  "inicio": "inicio",
+  "nodos": {
+    "inicio": {
+      "situacion": "«Delegación, ¿cuál es la postura de su país sobre los aranceles a productos agrícolas?» Se te seca la boca. No preparaste ese punto.",
+      "opciones": [
+        { "id": "a", "texto": "Hablas dos minutos de la deuda externa, que sí preparaste, esperando que nadie note el cambio.", "piloto": "emocion", "consecuencia": "La mesa te interrumpe: «Le pregunté por aranceles». Risas en la sala.", "explicacion": "Los nervios buscaron terreno seguro. Esquivar se nota más que admitir un límite.", "siguiente": "reaccion" },
+        { "id": "b", "texto": "Respiras y piensas en lo que sí sabes: tu país exporta café y necesita acceso a mercados.", "piloto": "razon", "consecuencia": "Tienes la base para responder en 30 segundos.", "explicacion": "Pausa y ubica: lo que sabes de tu país alcanza para una postura general.", "siguiente": "razon" },
+        { "id": "c", "texto": "Inventas una cifra para sonar seguro.", "piloto": "instinto", "consecuencia": "Otro delegado corrige tu cifra en público.", "explicacion": "El instinto defendió tu imagen con un dato falso. La autoridad se gana con datos verificables.", "siguiente": "reaccion" },
+        { "id": "d", "texto": "«Paso.»", "piloto": "instinto", "consecuencia": "Pierdes una oportunidad de mostrar a tu país.", "explicacion": "Huir es una de las tres reacciones del instinto." }
+      ]
+    },
+    "razon": {
+      "situacion": "Tienes la idea general. ¿Cómo la dices?",
+      "opciones": [
+        { "id": "e", "texto": "«Nuestra delegación apoya reducir aranceles agrícolas. Importa porque la economía de nuestro país depende de exportar café. Proponemos que el tema se incluya en la cláusula 6 y precisaremos cifras en el próximo caucus.»", "piloto": "razon", "consecuencia": "La mesa asiente. Dos países productores te buscan en el caucus.", "explicacion": "¿Qué? ¿Y qué? ¿Y ahora qué?: clara, breve y con siguiente paso, sin inventar nada." },
+        { "id": "f", "texto": "«Bueno, nuestro país, eh, tiene muchas cosas que decir sobre eso, porque es complejo, y hay varios factores…»", "piloto": "emocion", "consecuencia": "La mesa te pide concretar. Nadie recuerda qué dijiste.", "explicacion": "Sin estructura, los nervios hablan por ti." },
+        { "id": "g", "texto": "«Nos oponemos a todos los aranceles del mundo y exigimos su eliminación inmediata.»", "piloto": "instinto", "consecuencia": "Varios aliados se incomodan: es más extremo que tu política real.", "explicacion": "Por sonar firme, exageraste. Claridad no es extremismo." }
+      ]
+    },
+    "reaccion": {
+      "situacion": "La mesa te da una segunda oportunidad: «¿Podría concretar su postura?».",
+      "opciones": [
+        { "id": "h", "texto": "«Gracias. Apoyamos reducir aranceles agrícolas porque dependemos de exportar café. Precisaremos cifras en el caucus.»", "piloto": "razon", "consecuencia": "Recuperas credibilidad.", "explicacion": "Reconocer el límite y ordenar la respuesta te devolvió el volante." },
+        { "id": "i", "texto": "Te molestas: «Ya respondí».", "piloto": "instinto", "consecuencia": "La mesa anota una advertencia por tono.", "explicacion": "El orgullo herido decidió por ti." },
+        { "id": "j", "texto": "Te quedas callado.", "piloto": "instinto", "consecuencia": "La mesa sigue con otro país.", "explicacion": "Congelarse también es instinto." }
+      ]
+    }
+  },
+  "respuestaModelo": [
+    { "paso": "Pausa", "accion": "Notas la boca seca y exhalas lento antes de hablar." },
+    { "paso": "Analiza", "accion": "¿Qué te preguntaron exactamente? Aranceles agrícolas, no deuda." },
+    { "paso": "Ubica", "accion": "Tu país exporta café: necesita acceso a mercados." },
+    { "paso": "Ordena", "accion": "Qué: apoyamos reducir aranceles. Y qué: dependemos de exportar. Y ahora qué: incluirlo en la cláusula 6 y precisar cifras en el caucus." },
+    { "paso": "Alíate", "accion": "En el caucus buscas a otros países productores." }
+  ]
+}

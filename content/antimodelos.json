@@ -1,0 +1,74 @@
+[
+  {
+    "id": "el-que-mas-habla",
+    "nombre": "El que más habla",
+    "queHace": "Pide la palabra en cada ronda, repite ideas y confunde micrófono con liderazgo.",
+    "frenoAmable": "Hoy te frena creer que hablar más es liderar más. Tu energía ya está; falta dirigirla a escuchar.",
+    "habilidadQueFalta": "Escuchar y saber cuándo callar",
+    "habilidades": ["escucha"],
+    "leccionesRecomendadas": ["03", "08"]
+  },
+  {
+    "id": "explosivo",
+    "nombre": "El explosivo",
+    "queHace": "Cuando lo atacan, responde en caliente y rompe alianzas.",
+    "frenoAmable": "Hoy te frena que la alarma decide antes que tú. La pasión es valiosa; falta ganar tres segundos.",
+    "habilidadQueFalta": "Dominio de sí mismo",
+    "habilidades": ["dominio"],
+    "leccionesRecomendadas": ["06", "07"]
+  },
+  {
+    "id": "congelado",
+    "nombre": "El congelado",
+    "queHace": "Sabe la respuesta, pero los nervios no lo dejan hablar.",
+    "frenoAmable": "Hoy te frenan los nervios, no la falta de ideas. Lo que sabes ya está; falta un molde para sacarlo.",
+    "habilidadQueFalta": "Dominio de sí mismo y seguridad",
+    "habilidades": ["dominio", "seguridad"],
+    "leccionesRecomendadas": ["07", "08", "11"]
+  },
+  {
+    "id": "aficionado",
+    "nombre": "El aficionado",
+    "queHace": "No estudió la política de su país e improvisa.",
+    "frenoAmable": "Hoy te frena llegar con poca preparación. Tu soltura ayuda; con estudio se vuelve predicción.",
+    "habilidadQueFalta": "Preparación y conocimiento",
+    "habilidades": ["conocimiento"],
+    "leccionesRecomendadas": ["04", "08"]
+  },
+  {
+    "id": "veleta",
+    "nombre": "El veleta",
+    "queHace": "Cambia de postura con cada presión.",
+    "frenoAmable": "Hoy te frena no tener claro qué necesita tu país. Tu flexibilidad sirve; falta una brújula.",
+    "habilidadQueFalta": "Propósito y convicción",
+    "habilidades": ["proposito"],
+    "leccionesRecomendadas": ["08", "12"]
+  },
+  {
+    "id": "dueno-del-documento",
+    "nombre": "El dueño del documento",
+    "queHace": "No deja que nadie más escriba en el borrador.",
+    "frenoAmable": "Hoy te frena querer controlar cada palabra. Tu compromiso es real; falta dejar que otros lo hagan suyo.",
+    "habilidadQueFalta": "Empatía y capacidad de sumar",
+    "habilidades": ["empatia", "influencia"],
+    "leccionesRecomendadas": ["03", "10"]
+  },
+  {
+    "id": "cazador-de-premios",
+    "nombre": "El cazador de premios",
+    "queHace": "Compite contra todos para destacar.",
+    "frenoAmable": "Hoy te frena medirte por lo que ganas tú y no por lo que avanza el comité. Tu ambición sirve; falta visión de equipo.",
+    "habilidadQueFalta": "Visión de equipo",
+    "habilidades": ["influencia", "empatia"],
+    "leccionesRecomendadas": ["03", "10"]
+  },
+  {
+    "id": "automatico",
+    "nombre": "El automático",
+    "queHace": "Firma lo primero que le ofrecen «porque ya todos firmaron».",
+    "frenoAmable": "Hoy te frena decir que sí antes de pensar. Tu disposición a colaborar es buena; falta una pausa.",
+    "habilidadQueFalta": "Pensar antes de ceder",
+    "habilidades": ["dominio", "proposito"],
+    "leccionesRecomendadas": ["05", "09"]
+  }
+]

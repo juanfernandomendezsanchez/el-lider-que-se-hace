@@ -1,0 +1,21 @@
+{
+  "titulo": "Protocolo PAUSA",
+  "bajada": "Cinco pasos para que la razón recupere el volante en una crisis.",
+  "caminoRojo": {
+    "titulo": "Camino rojo: maneja el instinto",
+    "pasos": ["Crisis", "Alarma", "Instinto", "Reacción"],
+    "resultado": "Atacas, huyes o te congelas. Pierdes credibilidad y aliados."
+  },
+  "caminoVerde": {
+    "titulo": "Camino verde: maneja la razón",
+    "previos": ["Crisis", "Alarma"],
+    "resultado": "Respondes claro, sumas aliados y lideras."
+  },
+  "pasos": [
+    { "letra": "P", "nombre": "Pausa", "accion": "Respira y frena la reacción.", "pregunta": "¿Ya boté el aire antes de hablar?" },
+    { "letra": "A", "nombre": "Analiza", "accion": "Entiende qué pasó realmente.", "pregunta": "¿Qué dijeron exactamente y quién lo impulsa?" },
+    { "letra": "U", "nombre": "Ubica", "accion": "Recuerda qué dice y qué necesita tu país.", "pregunta": "¿Qué necesita mi país de esto?" },
+    { "letra": "O", "nombre": "Ordena", "accion": "Responde con ¿Qué? ¿Y qué? ¿Y ahora qué?", "pregunta": "¿Cuál es mi postura, por qué importa y qué propongo?" },
+    { "letra": "A", "nombre": "Alíate", "accion": "Suma apoyos hablándole al instinto del otro.", "pregunta": "¿A quién le doy una salida digna para que se sume?" }
+  ]
+}

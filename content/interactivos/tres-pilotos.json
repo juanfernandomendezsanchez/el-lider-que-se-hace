@@ -1,0 +1,11 @@
+{
+  "intro": "Lee cada reacción de un delegado bajo presión e indica qué piloto la tomó.",
+  "items": [
+    { "texto": "«¡Eso es mentira! Ustedes son los que violan el tratado.»", "piloto": "instinto", "explicacion": "Ataque inmediato para defender el territorio: instinto." },
+    { "texto": "Siente calor en la cara y el corazón se le acelera al oír el nombre de su país.", "piloto": "emocion", "explicacion": "Es la alarma sonando. Útil, siempre que no tome el volante." },
+    { "texto": "«Solicitamos que la mesa comparta la fuente de esa información.»", "piloto": "razon", "explicacion": "Pide datos antes de responder: la razón está al mando." },
+    { "texto": "Se queda en blanco y deja pasar su turno.", "piloto": "instinto", "explicacion": "Congelarse es una de las tres reacciones del instinto: atacar, huir o congelarse." },
+    { "texto": "Siente vergüenza cuando se ríen de su propuesta.", "piloto": "emocion", "explicacion": "La vergüenza es una alarma emocional. Notarla es el primer paso para frenarla." },
+    { "texto": "«Entendemos la preocupación. Proponemos agregar un mecanismo de revisión.»", "piloto": "razon", "explicacion": "Reconoce al otro y propone un paso concreto: razón." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "intro": "Estás en un caucus. Elige qué haces en cada momento. Después sal del comité 20 minutos y mira qué pasa con tu bloque.",
+  "rondas": [
+    {
+      "situacion": "Arranca el caucus moderado.",
+      "opciones": [
+        { "texto": "Pido la palabra en cada ronda para que me vean", "lider": false },
+        { "texto": "Hablo una vez, corto, y anoto qué propone cada país", "lider": true }
+      ]
+    },
+    {
+      "situacion": "Empieza el caucus libre y se arma un grupo alrededor tuyo.",
+      "opciones": [
+        { "texto": "Escribo yo el borrador para que salga como quiero", "lider": false },
+        { "texto": "Pregunto qué necesita cada país y redactamos juntos", "lider": true }
+      ]
+    },
+    {
+      "situacion": "Un delegado propone una idea mejor que la tuya.",
+      "opciones": [
+        { "texto": "La critico: si gana su idea, pierdo protagonismo", "lider": false },
+        { "texto": "La sumo a la cláusula y le doy el crédito", "lider": true }
+      ]
+    }
+  ],
+  "boton": "Salir 20 minutos",
+  "tiempo": "Minuto",
+  "resultados": {
+    "protagonista": { "titulo": "Tu bloque se detuvo", "texto": "Todos esperan a que vuelvas porque todo dependía de tu voz. Eras protagonista." },
+    "mixto": { "titulo": "Tu bloque avanzó a medias", "texto": "Algunas ideas siguieron vivas y otras esperaron por ti. Vas a mitad de camino." },
+    "lider": { "titulo": "Tu bloque siguió escribiendo", "texto": "Cuando vuelves, hay dos cláusulas nuevas con tus ideas, escritas por otros. Eras líder." }
+  }
+}

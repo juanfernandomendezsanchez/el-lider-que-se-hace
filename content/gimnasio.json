@@ -1,0 +1,159 @@
+{
+  "titulo": "Gimnasio",
+  "bajada": "Lo que practicas con poca presión sale solo con mucha presión. Unos minutos al día bastan.",
+  "rachaTitulo": "Tu racha",
+  "rachaDias": "días seguidos practicando",
+  "rachaDia": "día practicando",
+  "rachaCero": "Practica hoy para empezar tu racha.",
+  "rachaNota": "Cuenta los días en que completas al menos un ejercicio. Es tuya; no se compara con nadie.",
+  "hoyListo": "Hoy ya practicaste",
+  "herramientas": [
+    { "href": "/gimnasio/que-y-que/", "titulo": "¿Qué? ¿Y qué? ¿Y ahora qué?", "texto": "Una pregunta de comité al azar, 30 segundos para responder con el molde.", "minutos": 3 },
+    { "href": "/gimnasio/respiracion/", "titulo": "Respiración antes de hablar", "texto": "Un minuto: inhala en 3, exhala en 6.", "minutos": 1 },
+    { "href": "/gimnasio/si-y/", "titulo": "Sí, y…", "texto": "Elige la respuesta que construye sobre lo que dijo el otro.", "minutos": 3 },
+    { "href": "/gimnasio/secuestro/", "titulo": "Detecta el secuestro", "texto": "¿Esa frase salió del instinto, de la emoción o de la razón?", "minutos": 3 }
+  ],
+  "queYQue": {
+    "titulo": "¿Qué? ¿Y qué? ¿Y ahora qué?",
+    "bajada": "Te toca una pregunta al azar. Tienes 30 segundos para responder en voz alta (o escribir) con el molde de tres partes.",
+    "molde": [
+      { "parte": "¿Qué?", "ayuda": "Lo que sostienes o propones." },
+      { "parte": "¿Y qué?", "ayuda": "Por qué importa." },
+      { "parte": "¿Y ahora qué?", "ayuda": "El siguiente paso que propones." }
+    ],
+    "empezar": "Dame una pregunta",
+    "otra": "Otra pregunta",
+    "listo": "Terminé",
+    "escribir": "Si no puedes hablar en voz alta, escribe tu respuesta",
+    "segundos": "segundos",
+    "tiempo": "¡Tiempo!",
+    "rubricaTitulo": "Evalúate con honestidad",
+    "rubrica": [
+      { "id": "claridad", "criterio": "Claridad", "pregunta": "¿Se entendió tu postura en la primera frase?" },
+      { "id": "propuesta", "criterio": "Propuesta concreta", "pregunta": "¿Terminaste con un paso concreto (enmienda, moción, invitación)?" },
+      { "id": "tiempo", "criterio": "Tiempo", "pregunta": "¿Cerraste dentro de los 30 segundos?" }
+    ],
+    "si": "Sí",
+    "masOMenos": "Más o menos",
+    "no": "No",
+    "guardar": "Guardar mi práctica",
+    "guardado": "Práctica guardada. Tu racha está al día.",
+    "feedback": {
+      "alto": "Excelente. Repite mañana para que el molde pase a automático.",
+      "medio": "Vas bien. Fíjate en el criterio más débil en la próxima pregunta.",
+      "bajo": "Normal al principio. El molde se aprende repitiéndolo: prueba otra pregunta."
+    },
+    "preguntas": [
+      "¿Por qué su delegación se abstuvo en la votación anterior?",
+      "¿Qué propone su país para financiar la resolución?",
+      "¿Cómo responde su delegación a la acusación de violar el tratado?",
+      "¿Por qué deberíamos confiar en las cifras de su gobierno?",
+      "¿Qué opina su país de la cláusula operativa 3?",
+      "¿Su delegación apoyaría una misión de paz en la región?",
+      "¿Por qué su país no ha firmado el borrador?",
+      "¿Qué haría su delegación si la resolución no se aprueba?",
+      "¿Cómo garantiza su propuesta que los fondos lleguen a quienes los necesitan?",
+      "¿Su país estaría dispuesto a recibir más refugiados?",
+      "¿Por qué su bloque se opone a las sanciones?",
+      "¿Qué cambiaría su delegación del documento de trabajo?",
+      "¿Cómo afecta este tema a la población de su país?",
+      "¿Qué prioridad tiene este tema para su gobierno?",
+      "¿Su propuesta no es demasiado costosa para los países en desarrollo?",
+      "¿Por qué su delegación cambió de postura respecto a ayer?",
+      "¿Qué mecanismo de control propone su país?",
+      "¿Cuál es la línea roja de su delegación en esta negociación?",
+      "¿Qué le respondería a quienes dicen que su propuesta es poco realista?",
+      "¿Con qué países está dispuesta a trabajar su delegación?"
+    ]
+  },
+  "respiracion": {
+    "titulo": "Respiración antes de hablar",
+    "bajada": "Un minuto antes de levantar la placa: inhala en 3, exhala en 6. Botar el aire lento le avisa a tu cuerpo que no hay peligro.",
+    "inhala": "Inhala",
+    "exhala": "Exhala lento",
+    "boton": "Empezar (1 minuto)",
+    "listo": "Listo. Tu razón tiene el volante.",
+    "ciclos": 7,
+    "nota": "Si prefieres menos movimiento en pantalla, solo verás el conteo."
+  },
+  "siY": {
+    "titulo": "Sí, y…",
+    "bajada": "En improvisación, «sí, y…» significa construir sobre lo que dijo el otro en vez de negarlo. Elige la continuación que suma.",
+    "otro": "Otro delegado dice",
+    "resultado": "Construiste en",
+    "de": "de",
+    "repetir": "Jugar otra vez",
+    "items": [
+      {
+        "frase": "«Nuestro país no puede aportar más dinero al fondo.»",
+        "opciones": [
+          { "texto": "«Sí, y por eso proponemos que el aporte se calcule según la capacidad de cada país.»", "construye": true, "explicacion": "Acepta su límite y lo convierte en una propuesta que lo incluye." },
+          { "texto": "«No, todos tienen que aportar lo mismo.»", "construye": false, "explicacion": "Niega y lo arrincona." },
+          { "texto": "«Entonces no deberían estar en este bloque.»", "construye": false, "explicacion": "Ataca: su instinto se cerrará." }
+        ]
+      },
+      {
+        "frase": "«La resolución es demasiado larga.»",
+        "opciones": [
+          { "texto": "«Es la que hay.»", "construye": false, "explicacion": "Cierra la conversación." },
+          { "texto": "«Sí, y podemos fusionar las cláusulas 4 y 5. ¿Nos ayudas a redactarlas?»", "construye": true, "explicacion": "Toma su crítica y la vuelve trabajo conjunto." },
+          { "texto": "«Pero tiene buenas ideas.»", "construye": false, "explicacion": "El «pero» borra lo que el otro dijo." }
+        ]
+      },
+      {
+        "frase": "«Nos preocupa la soberanía de los países afectados.»",
+        "opciones": [
+          { "texto": "«Sí, y por eso la misión solo entraría con el consentimiento del país anfitrión.»", "construye": true, "explicacion": "Reconoce la preocupación y la incorpora al texto." },
+          { "texto": "«La soberanía no es excusa para no actuar.»", "construye": false, "explicacion": "Lo descalifica y lo pone a la defensiva." },
+          { "texto": "«Eso ya lo discutimos.»", "construye": false, "explicacion": "Ignora su preocupación." }
+        ]
+      },
+      {
+        "frase": "«Esta idea ya se intentó y fracasó.»",
+        "opciones": [
+          { "texto": "«No es cierto.»", "construye": false, "explicacion": "Choque directo, sin salida." },
+          { "texto": "«Sí, y aprendimos qué falló: esta versión agrega un mecanismo de seguimiento.»", "construye": true, "explicacion": "Acepta el antecedente y muestra la mejora." },
+          { "texto": "«Bueno, si no les gusta, no la firmen.»", "construye": false, "explicacion": "Renuncia a sumar." }
+        ]
+      },
+      {
+        "frase": "«Queremos que nuestra región reciba atención prioritaria.»",
+        "opciones": [
+          { "texto": "«Todas las regiones son iguales.»", "construye": false, "explicacion": "Niega su interés sin ofrecer nada." },
+          { "texto": "«Ya veremos.»", "construye": false, "explicacion": "Evade." },
+          { "texto": "«Sí, y podemos priorizar las zonas con más afectados, que incluyen a tu región.»", "construye": true, "explicacion": "Le habla a su interés con un criterio justo." }
+        ]
+      },
+      {
+        "frase": "«No confiamos en las cifras que presentaron.»",
+        "opciones": [
+          { "texto": "«Sí, y por eso proponemos que una agencia independiente las verifique.»", "construye": true, "explicacion": "Convierte la desconfianza en un mecanismo." },
+          { "texto": "«Nuestras cifras son correctas.»", "construye": false, "explicacion": "Defensivo; no resuelve la desconfianza." },
+          { "texto": "«Ustedes tampoco son confiables.»", "construye": false, "explicacion": "Ataque: escala el conflicto." }
+        ]
+      }
+    ]
+  },
+  "secuestro": {
+    "titulo": "Detecta el secuestro",
+    "bajada": "Frases que se oyen en un comité. ¿Quién habló: el instinto, la emoción o la razón?",
+    "resultado": "Acertaste",
+    "de": "de",
+    "repetir": "Jugar otra vez",
+    "siguiente": "Siguiente frase",
+    "items": [
+      { "frase": "«¡Eso es una mentira descarada!»", "piloto": "instinto", "explicacion": "Ataque inmediato para defender el territorio." },
+      { "frase": "«Me da mucha vergüenza, mejor no presento la enmienda.»", "piloto": "emocion", "explicacion": "La vergüenza está decidiendo por él." },
+      { "frase": "«¿Podría la delegación precisar la fuente de esa cifra?»", "piloto": "razon", "explicacion": "Pide información antes de reaccionar." },
+      { "frase": "«Si ustedes no firman, nosotros tampoco firmamos nada.»", "piloto": "instinto", "explicacion": "Represalia: responder golpe con golpe." },
+      { "frase": "«Estoy furioso, no puedo creer que nos hagan esto.»", "piloto": "emocion", "explicacion": "Es la alarma hablando en voz alta." },
+      { "frase": "«Entendemos la preocupación; proponemos una cláusula de revisión en dos años.»", "piloto": "razon", "explicacion": "Reconoce al otro y propone un paso." },
+      { "frase": "(Se queda callado y deja pasar su turno.)", "piloto": "instinto", "explicacion": "Congelarse es una reacción del instinto." },
+      { "frase": "«Me siento ignorado por este bloque.»", "piloto": "emocion", "explicacion": "Expresa una emoción; puede ser útil si después propone algo." },
+      { "frase": "«Antes de votar, pedimos un caucus de cinco minutos para escuchar a los indecisos.»", "piloto": "razon", "explicacion": "Compra tiempo con un propósito claro." },
+      { "frase": "«Ustedes siempre bloquean todo, como siempre.»", "piloto": "instinto", "explicacion": "Generaliza y acusa: defensa del territorio." },
+      { "frase": "«Esto me tiene muy nervioso, ya no sé qué decir.»", "piloto": "emocion", "explicacion": "Nombrar los nervios es un primer paso; falta frenar." },
+      { "frase": "«Nuestra delegación apoyará la cláusula si se agrega un mecanismo de control.»", "piloto": "razon", "explicacion": "Postura clara con condición concreta." }
+    ]
+  }
+}

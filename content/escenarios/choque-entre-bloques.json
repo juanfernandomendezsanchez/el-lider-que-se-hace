@@ -1,0 +1,47 @@
+{
+  "id": "choque-bloques",
+  "slug": "choque-entre-bloques",
+  "orden": 6,
+  "titulo": "Choque entre bloques",
+  "resumen": "Dos bloques presentan borradores incompatibles y el comité se está partiendo en dos.",
+  "contexto": "Asamblea General, tema de migración. Lideras el bloque A. El bloque B propone cerrar fronteras temporalmente; tu bloque, corredores humanitarios.",
+  "temporizadorSeg": 30,
+  "siSeAcabaElTiempo": {
+    "consecuencia": "Los dos borradores van a votación por separado y ninguno alcanza la mayoría.",
+    "explicacion": "Cuando dos bloques chocan, alguien tiene que tomar la iniciativa de acercarse. Esperar también es una decisión."
+  },
+  "inicio": "inicio",
+  "nodos": {
+    "inicio": {
+      "situacion": "En el debate, el líder del bloque B dice: «La propuesta del bloque A es ingenua y pone en riesgo nuestras fronteras». Tu bloque espera tu reacción.",
+      "opciones": [
+        { "id": "a", "texto": "«Lo ingenuo es creer que cerrar fronteras resuelve algo. Su propuesta es inhumana.»", "piloto": "instinto", "consecuencia": "El debate se vuelve un duelo. Los indecisos se alejan de ambos bloques.", "explicacion": "Respondiste al ataque con otro ataque. Los dos bloques se atrincheran." },
+        { "id": "b", "texto": "Respiras y piensas qué presión real tiene ese bloque: sus países reciben miles de personas al mes.", "piloto": "razon", "consecuencia": "Entiendes que su miedo es real, aunque su solución no te convenza.", "explicacion": "Analizar el instinto del otro es el primer paso para bajar su amenaza.", "siguiente": "razon" },
+        { "id": "c", "texto": "Le dices a tu bloque que no vale la pena hablar con ellos.", "piloto": "emocion", "consecuencia": "Tu bloque se encierra. El comité queda partido en dos.", "explicacion": "La frustración decidió que no hay diálogo posible.", "siguiente": "reaccion" }
+      ]
+    },
+    "razon": {
+      "situacion": "En el caucus te acercas al líder del bloque B. Está tenso, esperando un reproche.",
+      "opciones": [
+        { "id": "d", "texto": "«Sabemos que sus países reciben mucha presión en la frontera. ¿Y si combinamos ambos borradores: corredores humanitarios con un fondo para los países que más reciben? Podría llevar el nombre de su bloque.» (y dibujas en una hoja la región con y sin acuerdo).", "piloto": "razon", "consecuencia": "Acepta trabajar juntos. La resolución se aprueba con ambos bloques como patrocinadores.", "explicacion": "Bajaste la amenaza, usaste contraste visual y le diste una salida digna." },
+        { "id": "e", "texto": "«Retiren su borrador y apoyen el nuestro; es lo correcto.»", "piloto": "instinto", "consecuencia": "Se niega. Los borradores van a votación por separado.", "explicacion": "Lo arrinconaste: no tiene cómo ceder sin perder." },
+        { "id": "f", "texto": "«Ya firmaron muchos países el nuestro» (aunque son menos que los suyos).", "piloto": "emocion", "consecuencia": "Lo descubre y desconfía de todo lo que propones después.", "explicacion": "Prueba social falsa: manipulación que se paga con credibilidad." }
+      ]
+    },
+    "reaccion": {
+      "situacion": "La mesa anuncia votación en diez minutos. Ninguno de los dos borradores tiene mayoría.",
+      "opciones": [
+        { "id": "g", "texto": "Pides un caucus breve y propones al bloque B fusionar los borradores.", "piloto": "razon", "consecuencia": "Logran un texto mínimo común que se aprueba por poco.", "explicacion": "Tarde, pero recuperaste el volante y hablaste de «nosotros»." },
+        { "id": "h", "texto": "Vas a votación igual: «que gane el mejor».", "piloto": "instinto", "consecuencia": "Ningún borrador se aprueba. El comité termina sin resolución.", "explicacion": "Competir contra el otro bloque pesó más que el propósito del comité." },
+        { "id": "i", "texto": "Te desanimas y dejas que otro decida.", "piloto": "emocion", "consecuencia": "Tu bloque se divide en la votación.", "explicacion": "El liderazgo se notó por su ausencia." }
+      ]
+    }
+  },
+  "respuestaModelo": [
+    { "paso": "Pausa", "accion": "No respondes el ataque en caliente. Exhalas." },
+    { "paso": "Analiza", "accion": "¿Qué miedo real hay detrás del bloque B? Presión en sus fronteras." },
+    { "paso": "Ubica", "accion": "Tu país necesita protección para las personas migrantes, no ganarle al otro bloque." },
+    { "paso": "Ordena", "accion": "Qué: combinemos ambos borradores. Y qué: así se protege a las personas y a los países que más reciben. Y ahora qué: un texto conjunto." },
+    { "paso": "Alíate", "accion": "La cláusula lleva el nombre de su bloque: su sí es un logro para ellos." }
+  ]
+}

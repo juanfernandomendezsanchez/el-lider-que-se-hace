@@ -1,0 +1,18 @@
+{
+  "situacion": "Un país vecino defiende una cláusula que obliga a cerrar fronteras. Tu bloque la rechaza. Su delegada está a la defensiva.",
+  "pregunta": "¿Cómo te acercas?",
+  "opciones": [
+    { "texto": "«Su cláusula es inaceptable. Retírenla o votamos en contra.»", "correcta": false, "resultado": "Su instinto se cierra. Se atrinchera y arrastra a dos países más.", "explicacion": "La arrinconaste: no tiene cómo ceder sin perder." },
+    { "texto": "«Entendemos la presión que tienen en su frontera. ¿Y si la cláusula incluye un fondo de apoyo para quienes reciben más personas?»", "correcta": true, "resultado": "Baja la guardia. Acepta trabajar una enmienda juntos y puede presentarla como un logro.", "explicacion": "Bajaste la amenaza, reconociste su problema y le diste una salida digna." },
+    { "texto": "No hablarle y buscar los votos por otro lado.", "correcta": false, "resultado": "La votación queda reñida y ella se convierte en tu principal opositora.", "explicacion": "Perdiste la oportunidad de sumarla." }
+  ],
+  "clavesTitulo": "Las 6 claves para hablarle al instinto (Renvoisé y Morin)",
+  "claves": [
+    { "nombre": "Háblale de él", "texto": "Al instinto le importa lo suyo.", "ejemplo": "«Con esta cláusula, tu región recibe el fondo primero.»" },
+    { "nombre": "Contraste", "texto": "Decide mejor viendo un antes y un después.", "ejemplo": "«Sin acuerdo sigue la crisis; con acuerdo hay alto al fuego.»" },
+    { "nombre": "Concreto", "texto": "Lo tangible convence más que lo abstracto.", "ejemplo": "Cifras, casos reales, pasos claros." },
+    { "nombre": "Principio y fin", "texto": "Se recuerda lo primero y lo último.", "ejemplo": "Abre y cierra con tu propuesta en una frase." },
+    { "nombre": "Visual", "texto": "Una imagen se procesa más rápido que un texto.", "ejemplo": "Dibuja en una hoja: problema, solución, quién gana." },
+    { "nombre": "Emoción", "texto": "Lo que se siente se recuerda.", "ejemplo": "Una historia real detrás de la cifra." }
+  ]
+}

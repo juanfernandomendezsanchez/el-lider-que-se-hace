@@ -1,0 +1,48 @@
+{
+  "id": "aliado-cambia",
+  "slug": "tu-aliado-cambia-de-bando",
+  "orden": 4,
+  "titulo": "Tu aliado cambia de bando",
+  "resumen": "El país con el que redactaste toda la mañana anuncia que se pasa al bloque rival.",
+  "contexto": "Comité de Medio Ambiente. Llevas dos sesiones trabajando con otra delegación en una resolución sobre transición energética. Eran copatrocinadores.",
+  "temporizadorSeg": 30,
+  "siSeAcabaElTiempo": {
+    "consecuencia": "El bloque rival presenta su borrador con tu exaliado como patrocinador. Tu bloque queda desorientado.",
+    "explicacion": "Congelarse deja el espacio libre al otro. Una pregunta entrenada, «¿qué cambió y qué necesita?», te habría dado un primer paso."
+  },
+  "inicio": "inicio",
+  "nodos": {
+    "inicio": {
+      "situacion": "En plena sesión, tu aliada anuncia: «Nuestra delegación se suma al borrador del bloque B». Te mira de reojo. Sientes que te traicionaron.",
+      "opciones": [
+        { "id": "a", "texto": "Pides la palabra: «Es lamentable que algunas delegaciones no tengan palabra».", "piloto": "instinto", "consecuencia": "Varios países te miran con desconfianza: si atacas así a una aliada, ¿qué harías con ellos?", "explicacion": "El orgullo herido tomó el volante. Atacar en público te resta simpatía con todo el comité.", "siguiente": "reaccion" },
+        { "id": "b", "texto": "Notas la rabia, respiras y en el caucus le preguntas en privado qué cambió.", "piloto": "razon", "consecuencia": "Te cuenta que su gobierno no puede aceptar la meta de 2030 de tu borrador.", "explicacion": "Pausa y análisis: antes de reaccionar, entiendes qué pasó realmente.", "siguiente": "razon" },
+        { "id": "c", "texto": "Le reclamas por mensaje: «Después de todo lo que hicimos juntas…».", "piloto": "emocion", "consecuencia": "Se pone a la defensiva y deja de responder.", "explicacion": "La decepción es legítima, pero desde la emoción solo cierras la puerta.", "siguiente": "reaccion" },
+        { "id": "d", "texto": "Te sumas tú también al bloque B para no quedarte solo.", "piloto": "emocion", "consecuencia": "Pierdes tu propuesta y tu bloque se desarma sin saber por qué.", "explicacion": "El miedo a quedarte solo decidió por ti: el veleta." }
+      ]
+    },
+    "razon": {
+      "situacion": "Tu aliada te explica: «Mi gobierno no puede comprometerse con 2030. El bloque B no pone fecha».",
+      "opciones": [
+        { "id": "e", "texto": "«Entiendo. ¿Y si ponemos metas por etapas, 2030 para quien pueda y 2035 para el resto? Podrías presentarla tú como enmienda.»", "piloto": "razon", "consecuencia": "Acepta. Vuelve a tu bloque con la enmienda como logro propio y arrastra a otro país.", "explicacion": "Ubicaste lo que necesitaba tu país, ordenaste una salida y le diste una salida digna." },
+        { "id": "f", "texto": "«La fecha no se negocia. Si te vas, te vas.»", "piloto": "instinto", "consecuencia": "Se queda en el bloque B. Pierdes la votación por un voto.", "explicacion": "Defendiste el texto como territorio, no el propósito de tu país." },
+        { "id": "g", "texto": "«Bueno, entonces quitamos todas las fechas.»", "piloto": "emocion", "consecuencia": "Vuelve, pero tu resolución queda sin compromisos reales.", "explicacion": "Cediste todo por recuperar a la aliada. Ganar su voto no era el único objetivo." }
+      ]
+    },
+    "reaccion": {
+      "situacion": "El bloque B gana fuerza. Tienes un minuto en el siguiente caucus moderado.",
+      "opciones": [
+        { "id": "h", "texto": "«Nuestro bloque está abierto a metas por etapas. Invitamos a todas las delegaciones, incluidas las del bloque B, a construirlas con nosotros.»", "piloto": "razon", "consecuencia": "Tu exaliada se acerca después del caucus a conversar.", "explicacion": "Recuperaste el volante y hablaste de «nosotros» en vez de culpar." },
+        { "id": "i", "texto": "Repites que hubo una traición y pides que conste en acta.", "piloto": "instinto", "consecuencia": "La mesa sigue adelante; tu bloque se encoge.", "explicacion": "Insistir en la herida no suma votos." },
+        { "id": "j", "texto": "Cedes tu tiempo porque no sabes qué decir.", "piloto": "emocion", "consecuencia": "El bloque B presenta su borrador sin oposición.", "explicacion": "La decepción te dejó sin palabras. El molde de tres partes te habría dado un guion." }
+      ]
+    }
+  },
+  "respuestaModelo": [
+    { "paso": "Pausa", "accion": "Notas la rabia («me siento traicionado») y exhalas antes de responder." },
+    { "paso": "Analiza", "accion": "¿Qué cambió? Le preguntas en privado, sin acusar." },
+    { "paso": "Ubica", "accion": "Tu país necesita compromisos reales, no castigar a la aliada." },
+    { "paso": "Ordena", "accion": "Qué: aceptamos metas por etapas. Y qué: así más países se suman. Y ahora qué: una enmienda conjunta." },
+    { "paso": "Alíate", "accion": "Ella presenta la enmienda como logro propio y vuelve con otro país." }
+  ]
+}

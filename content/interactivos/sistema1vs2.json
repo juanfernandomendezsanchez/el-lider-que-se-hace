@@ -1,0 +1,23 @@
+{
+  "presupuestoTitulo": "Tu atención consciente es un presupuesto",
+  "presupuestoIntro": "Llega una pregunta difícil. Marca lo que ya tienes en automático y mira cuánta atención te queda para liderar.",
+  "gastos": [
+    { "texto": "Controlar la respiración y los nervios", "costo": 30 },
+    { "texto": "Decidir cómo empezar y en qué orden hablar", "costo": 25 },
+    { "texto": "Recordar la postura de mi país", "costo": 25 }
+  ],
+  "enAutomatico": "En automático",
+  "libreTitulo": "Atención libre para liderar",
+  "libreBajo": "Casi no te queda atención: respondes tarde y sin estrategia.",
+  "libreMedio": "Te alcanza para responder, pero no para leer al otro.",
+  "libreAlto": "Tienes atención para notar quién preguntó, por qué, y convertirlo en una oportunidad.",
+  "clasificarTitulo": "¿Qué sistema lo hace?",
+  "sistema1": "Sistema 1 · automático",
+  "sistema2": "Sistema 2 · consciente",
+  "items": [
+    { "texto": "Notar que un delegado está enojado por su tono", "sistema": 1, "explicacion": "Leer emociones en una cara o una voz es instantáneo: Sistema 1." },
+    { "texto": "Calcular cuántos votos faltan para una mayoría de dos tercios", "sistema": 2, "explicacion": "Hacer cuentas exige atención deliberada: Sistema 2." },
+    { "texto": "Redactar una enmienda que deje contentos a dos bloques", "sistema": 2, "explicacion": "Comparar intereses y planear es trabajo lento y consciente." },
+    { "texto": "Decir «Nuestra delegación sostiene que…» después de practicarlo mucho", "sistema": 1, "explicacion": "Lo practicado pasa al automático. Esa es la meta del entrenamiento." }
+  ]
+}

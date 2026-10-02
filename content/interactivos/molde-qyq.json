@@ -1,0 +1,35 @@
+{
+  "pregunta": "La mesa te pregunta sin aviso: «¿Por qué su delegación no apoya la propuesta de un fondo regional de agua?»",
+  "intro": "Elige el mejor fragmento para cada parte del molde.",
+  "partes": [
+    {
+      "nombre": "¿Qué?",
+      "ayuda": "Lo que sostienes o propones.",
+      "opciones": [
+        { "texto": "«Bueno, es que hay muchas cosas que considerar sobre el agua y la región…»", "correcta": false, "explicacion": "Da vueltas sin decir tu postura. Nadie sabe qué sostienes." },
+        { "texto": "«Nuestra delegación apoya el fondo, pero no como está redactado hoy.»", "correcta": true, "explicacion": "Postura clara en una frase." },
+        { "texto": "«Nos oponemos porque la delegación vecina siempre bloquea todo.»", "correcta": false, "explicacion": "Ataca en vez de exponer. Le habla al instinto del otro… para mal." }
+      ]
+    },
+    {
+      "nombre": "¿Y qué?",
+      "ayuda": "Por qué importa.",
+      "opciones": [
+        { "texto": "«No tiene reglas para repartir el dinero, y los países río abajo quedaríamos sin acceso.»", "correcta": true, "explicacion": "Explica la consecuencia concreta para tu país." },
+        { "texto": "«Porque es importante.»", "correcta": false, "explicacion": "No dice por qué. Es una razón vacía." },
+        { "texto": "«Porque nuestro presidente lo dijo en televisión.»", "correcta": false, "explicacion": "Es un dato, pero no explica qué está en juego." }
+      ]
+    },
+    {
+      "nombre": "¿Y ahora qué?",
+      "ayuda": "El siguiente paso que propones.",
+      "opciones": [
+        { "texto": "«Ya veremos qué pasa en la votación.»", "correcta": false, "explicacion": "No propone nada; deja al comité sin salida." },
+        { "texto": "«Que lo arreglen quienes lo escribieron.»", "correcta": false, "explicacion": "Cierra la puerta y suena a reproche." },
+        { "texto": "«Proponemos una enmienda con un criterio de reparto por población. Con eso lo copatrocinamos.»", "correcta": true, "explicacion": "Salida concreta y una invitación a sumar." }
+      ]
+    }
+  ],
+  "resultadoTitulo": "Tu respuesta completa",
+  "resultadoTexto": "Léela en voz alta. Debería tomarte menos de 30 segundos."
+}

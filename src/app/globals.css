@@ -1,0 +1,201 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Paleta. Rojo, ámbar y verde se usan SOLO con su significado: instinto, emoción y razón. */
+:root {
+  --bg: #f6f3ec;
+  --surface: #ffffff;
+  --surface-2: #efebe2;
+  --ink: #1b2333;
+  --muted: #535c6e;
+  --line: #ddd7ca;
+  --brand: #26375a;
+  --brand-ink: #ffffff;
+  --brass: #8a6a2b;
+  --focus: #2f6fdf;
+
+  --instinto: #b8322a;
+  --instinto-soft: #fbe6e3;
+  --emocion: #9a5b00;
+  --emocion-fill: #e8a02a;
+  --emocion-soft: #fdf0d9;
+  --razon: #1d6d47;
+  --razon-soft: #def2e6;
+  --neutro: #6b7385;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10141c;
+    --surface: #182030;
+    --surface-2: #1f293b;
+    --ink: #ece9e2;
+    --muted: #a7afbf;
+    --line: #2d384c;
+    --brand: #a9bde6;
+    --brand-ink: #10141c;
+    --brass: #d6b673;
+    --focus: #7fb0ff;
+    --instinto: #ff7a6e;
+    --instinto-soft: #3a1d1c;
+    --emocion: #ffbd54;
+    --emocion-fill: #ffbd54;
+    --emocion-soft: #3a2c14;
+    --razon: #5ad39a;
+    --razon-soft: #15322a;
+    --neutro: #9aa3b5;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #10141c;
+  --surface: #182030;
+  --surface-2: #1f293b;
+  --ink: #ece9e2;
+  --muted: #a7afbf;
+  --line: #2d384c;
+  --brand: #a9bde6;
+  --brand-ink: #10141c;
+  --brass: #d6b673;
+  --focus: #7fb0ff;
+  --instinto: #ff7a6e;
+  --instinto-soft: #3a1d1c;
+  --emocion: #ffbd54;
+  --emocion-fill: #ffbd54;
+  --emocion-soft: #3a2c14;
+  --razon: #5ad39a;
+  --razon-soft: #15322a;
+  --neutro: #9aa3b5;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brass: var(--brass);
+  --color-instinto: var(--instinto);
+  --color-instinto-soft: var(--instinto-soft);
+  --color-emocion: var(--emocion);
+  --color-emocion-fill: var(--emocion-fill);
+  --color-emocion-soft: var(--emocion-soft);
+  --color-razon: var(--razon);
+  --color-razon-soft: var(--razon-soft);
+  --color-neutro: var(--neutro);
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-source), system-ui, sans-serif;
+}
+
+html {
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 100;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.t-instinto { color: var(--instinto); font-weight: 600; }
+.t-emocion { color: var(--emocion); font-weight: 600; }
+.t-razon { color: var(--razon); font-weight: 600; }
+
+/* Texto largo de las lecciones (MDX) */
+.prose-leccion > * + * { margin-top: 1rem; }
+.prose-leccion h2 { font-size: 1.4rem; margin-top: 2rem; }
+.prose-leccion h3 { font-size: 1.15rem; margin-top: 1.5rem; }
+.prose-leccion strong { font-weight: 650; }
+.prose-leccion ul { list-style: disc; padding-left: 1.25rem; }
+.prose-leccion ol { list-style: decimal; padding-left: 1.25rem; }
+.prose-leccion li + li { margin-top: 0.35rem; }
+.prose-leccion a { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+.prose-leccion table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  width: 100%;
+}
+.prose-leccion th,
+.prose-leccion td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.55rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+  min-width: 8rem;
+}
+.prose-leccion th { font-weight: 650; background: var(--surface-2); }
+
+/* Señal que viaja por la red neuronal */
+@keyframes trazo {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+.senal {
+  stroke-dasharray: 1;
+  animation: trazo 0.7s ease-out both;
+}
+@keyframes latido {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+.latido { transform-box: fill-box; transform-origin: center; animation: latido 2.4s ease-in-out infinite; }
+
+@keyframes respirar-in { from { transform: scale(0.55); } to { transform: scale(1); } }
+@keyframes respirar-out { from { transform: scale(1); } to { transform: scale(0.55); } }
+.inhala { animation: respirar-in 3s ease-in-out forwards; }
+.exhala { animation: respirar-out 6s ease-in-out forwards; }
+
+@keyframes aparecer { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.aparecer { animation: aparecer 0.35s ease-out both; }
+
+.flip { perspective: 1000px; }
+.flip-inner { transition: transform 0.5s ease; transform-style: preserve-3d; }
+.flip[data-volteada="true"] .flip-inner { transform: rotateY(180deg); }
+.flip-cara { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-atras { transform: rotateY(180deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .senal { stroke-dasharray: none; }
+  .inhala, .exhala { animation: none; }
+}
+
+@media print {
+  header, nav, footer, .no-print { display: none !important; }
+  body.imprimir-tarjeta .kit-seccion { display: none !important; }
+  body.imprimir-tarjeta main { padding: 0 !important; }
+  body { background: #fff; color: #000; }
+}

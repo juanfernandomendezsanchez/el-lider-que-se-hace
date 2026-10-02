@@ -1,0 +1,102 @@
+{
+  "titulo": "Mi mapa de líder",
+  "bajada": "No hay una sola forma de ser líder: hay un conjunto de habilidades que cada uno desarrolla a su ritmo. Califícate del 1 al 5 en cada una y mira tu mapa.",
+  "nucleo": "Seguridad",
+  "centro": "Líder",
+  "nucleoTexto": "En el centro está la seguridad: no es no sentir miedo, sino saber que puedes manejarlo. Crece cuando crecen las demás.",
+  "escala": ["Casi nunca", "Pocas veces", "A veces", "Casi siempre", "Siempre"],
+  "evaluar": "Evaluarme",
+  "guardar": "Guardar mi mapa",
+  "guardado": "Mapa guardado",
+  "volverEvaluar": "Evaluarme otra vez",
+  "consejoRepetir": "Repite la evaluación después de cada modelo para ver tu evolución.",
+  "faltan": "Te faltan habilidades por calificar",
+  "actual": "Hoy",
+  "anterior": "Evaluación anterior",
+  "historial": "Tu evolución",
+  "planTitulo": "Tu plan personal",
+  "planTexto": "Tus dos habilidades más bajas, con tres ejercicios concretos para cada una.",
+  "sinEvaluacion": "Todavía no te has evaluado. Toma 3 minutos.",
+  "habilidades": [
+    {
+      "id": "comunicacion",
+      "nombre": "Comunicación asertiva",
+      "pregunta": "Cuando hablo en el comité, ¿digo mi postura de forma clara y respetuosa, con una propuesta concreta?",
+      "ejercicios": [
+        { "texto": "Responde 3 preguntas al azar con el molde de tres partes.", "href": "/gimnasio/que-y-que/" },
+        { "texto": "Repasa la lección «Escuchar, saber y ordenar».", "href": "/recorrido/escuchar-saber-y-ordenar/" },
+        { "texto": "Escribe tu discurso de apertura en 3 frases: qué, y qué, y ahora qué.", "href": "/kit/" }
+      ]
+    },
+    {
+      "id": "escucha",
+      "nombre": "Escucha activa",
+      "pregunta": "¿Noto quién impulsa cada idea, quién calla y quién cambia de postura?",
+      "ejercicios": [
+        { "texto": "En tu próxima sesión, anota qué quiere cada país antes de hablar.", "href": "/recorrido/escuchar-saber-y-ordenar/" },
+        { "texto": "Juega «Sí, y…»: construye sobre lo que dijo el otro.", "href": "/gimnasio/si-y/" },
+        { "texto": "Practica el escenario del aliado que cambia de bando.", "href": "/simulador/tu-aliado-cambia-de-bando/" }
+      ]
+    },
+    {
+      "id": "conocimiento",
+      "nombre": "Conocimiento",
+      "pregunta": "¿Conozco la política de mi país lo suficiente como para responder sin buscarla?",
+      "ejercicios": [
+        { "texto": "Completa el checklist previo al modelo.", "href": "/kit/" },
+        { "texto": "Escribe las 5 objeciones más probables y su respuesta.", "href": "/kit/" },
+        { "texto": "Practica la pregunta sorpresa de la mesa.", "href": "/simulador/pregunta-sorpresa-de-la-mesa/" }
+      ]
+    },
+    {
+      "id": "experiencia",
+      "nombre": "Experiencia",
+      "pregunta": "¿Practico de forma deliberada y reviso qué funcionó después de cada sesión?",
+      "ejercicios": [
+        { "texto": "Haz la reflexión posterior a tu último modelo.", "href": "/kit/" },
+        { "texto": "Practica en el gimnasio tres días seguidos.", "href": "/gimnasio/" },
+        { "texto": "Elige un hábito de la semana y repítelo.", "href": "/recorrido/entrenar-el-piloto-automatico/" }
+      ]
+    },
+    {
+      "id": "persuasion",
+      "nombre": "Persuasión",
+      "pregunta": "¿Consigo que otros digan que sí por decisión propia, sin presionar ni engañar?",
+      "ejercicios": [
+        { "texto": "Clasifica frases de negociación en el laboratorio.", "href": "/persuasion/" },
+        { "texto": "Arma tu propuesta con el constructor y revisa las 6 claves.", "href": "/persuasion/" },
+        { "texto": "Practica el escenario «Te faltan dos votos».", "href": "/simulador/te-faltan-dos-votos/" }
+      ]
+    },
+    {
+      "id": "influencia",
+      "nombre": "Influencia",
+      "pregunta": "Si salgo 20 minutos del comité, ¿mi bloque sigue avanzando con mis ideas?",
+      "ejercicios": [
+        { "texto": "Haz la prueba de los 20 minutos.", "href": "/recorrido/en-el-mun-no-hay-lideres/" },
+        { "texto": "Practica el choque entre bloques.", "href": "/simulador/choque-entre-bloques/" },
+        { "texto": "En tu próximo caucus, reparte cláusulas según lo que le importa a cada país.", "href": "/recorrido/influencia-y-el-instinto-del-otro/" }
+      ]
+    },
+    {
+      "id": "empatia",
+      "nombre": "Empatía",
+      "pregunta": "¿Entiendo qué presión real tiene el otro delegado y le ofrezco una salida digna?",
+      "ejercicios": [
+        { "texto": "Juega «Sí, y…».", "href": "/gimnasio/si-y/" },
+        { "texto": "Repasa la lección sobre el instinto del otro.", "href": "/recorrido/influencia-y-el-instinto-del-otro/" },
+        { "texto": "Practica la burla en el caucus sin contraatacar.", "href": "/simulador/burla-en-el-caucus/" }
+      ]
+    },
+    {
+      "id": "proposito",
+      "nombre": "Propósito",
+      "pregunta": "Bajo presión, ¿decido según lo que necesita mi país y no según cómo me siento?",
+      "ejercicios": [
+        { "texto": "Escribe en una frase qué necesita tu país de este comité.", "href": "/kit/" },
+        { "texto": "Detecta el secuestro en frases de comité.", "href": "/gimnasio/secuestro/" },
+        { "texto": "Respira un minuto antes de cada intervención.", "href": "/gimnasio/respiracion/" }
+      ]
+    }
+  ]
+}

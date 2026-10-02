@@ -1,0 +1,748 @@
+{
+  "titulo": "Dos cerebros, una crisis",
+  "intro": "Los dos cerebros tienen las mismas partes, en el mismo lugar. Lo único que cambia es por dónde viaja la señal.",
+  "leyenda": [
+    {
+      "piloto": "instinto",
+      "nombre": "Instinto",
+      "texto": "Quiere sobrevivir: ataca, huye o se congela."
+    },
+    {
+      "piloto": "emocion",
+      "nombre": "Emoción",
+      "texto": "Siente y da la alarma."
+    },
+    {
+      "piloto": "razon",
+      "nombre": "Razón",
+      "texto": "Piensa, planea y negocia."
+    }
+  ],
+  "nodos": [
+    {
+      "id": "crisis",
+      "etiqueta": "CRISIS",
+      "tipo": "neutro",
+      "x": 200,
+      "y": 30,
+      "funcion": "Llega algo inesperado.",
+      "enLider": "La recibe como un problema que se puede resolver.",
+      "enNoLider": "La recibe como un ataque personal."
+    },
+    {
+      "id": "alarma",
+      "etiqueta": "Alarma",
+      "tipo": "emocion",
+      "x": 200,
+      "y": 95,
+      "funcion": "Avisa que algo importa.",
+      "enLider": "Suena, la nota y la usa como energía.",
+      "enNoLider": "Suena y le entrega el volante al instinto."
+    },
+    {
+      "id": "instinto",
+      "etiqueta": "Instinto",
+      "tipo": "instinto",
+      "x": 62,
+      "y": 200,
+      "funcion": "Quiere defenderse ya.",
+      "enLider": "Se queda en el asiento de atrás: avisa, pero no maneja.",
+      "enNoLider": "Toma el volante: ataca, huye o se congela."
+    },
+    {
+      "id": "orgullo",
+      "etiqueta": "Orgullo",
+      "tipo": "instinto",
+      "x": 52,
+      "y": 320,
+      "funcion": "«No me humilles».",
+      "enLider": "Se convierte en defender los intereses de su país, no su ego.",
+      "enNoLider": "Empuja al instinto: responder se vuelve una cuestión personal."
+    },
+    {
+      "id": "pausa",
+      "etiqueta": "Pausa",
+      "tipo": "razon",
+      "x": 201,
+      "y": 173,
+      "funcion": "Respira y frena unos segundos.",
+      "enLider": "Una exhalación larga le compra tiempo a la razón.",
+      "enNoLider": "Queda apagada: no hay espacio entre lo que pasa y lo que responde."
+    },
+    {
+      "id": "escucha",
+      "etiqueta": "Escucha",
+      "tipo": "razon",
+      "x": 282,
+      "y": 152,
+      "funcion": "Entiende qué pasó realmente.",
+      "enLider": "Escucha el contenido completo y nota quién impulsa cada idea.",
+      "enNoLider": "Solo oye el tono y se queda con la ofensa."
+    },
+    {
+      "id": "archivo",
+      "etiqueta": "Lo que sé",
+      "tipo": "razon",
+      "x": 352,
+      "y": 200,
+      "funcion": "Política del país, datos, experiencia.",
+      "enLider": "Encuentra rápido lo que estudió.",
+      "enNoLider": "Se queda en blanco: el pánico bloquea la memoria."
+    },
+    {
+      "id": "prediccion",
+      "etiqueta": "Anticipo",
+      "tipo": "razon",
+      "x": 359,
+      "y": 284,
+      "funcion": "Prevé reacciones y objeciones.",
+      "enLider": "Ya había imaginado esta objeción, así que no lo sorprende.",
+      "enNoLider": "Todo lo toma por sorpresa."
+    },
+    {
+      "id": "brujula",
+      "etiqueta": "Propósito",
+      "tipo": "razon",
+      "x": 299,
+      "y": 344,
+      "funcion": "Qué necesita mi país.",
+      "enLider": "Decide según lo que su país necesita.",
+      "enNoLider": "Decide según cómo se siente en ese momento."
+    },
+    {
+      "id": "orden",
+      "etiqueta": "Ordeno",
+      "tipo": "razon",
+      "x": 205,
+      "y": 345,
+      "funcion": "¿Qué? ¿Y qué? ¿Y ahora qué?",
+      "enLider": "Usa un molde para responder claro y con salida.",
+      "enNoLider": "Habla sin orden, repite y no propone nada."
+    },
+    {
+      "id": "puente",
+      "etiqueta": "Alianzas",
+      "tipo": "razon",
+      "x": 172,
+      "y": 290,
+      "funcion": "Empatía y persuasión.",
+      "enLider": "Baja la amenaza del otro y le ofrece una salida digna.",
+      "enNoLider": "Rompe puentes con quien podía ser su aliado."
+    },
+    {
+      "id": "seguridad",
+      "etiqueta": "SEGURIDAD",
+      "tipo": "nucleo",
+      "x": 270,
+      "y": 252,
+      "funcion": "Se alimenta de lo que sé, de lo que anticipo y de un molde para ordenar.",
+      "enLider": "Está encendida: sabe que puede manejar la presión.",
+      "enNoLider": "Está apagada: cada sorpresa la tambalea."
+    },
+    {
+      "id": "voz",
+      "etiqueta": "VOZ",
+      "tipo": "salida",
+      "x": 200,
+      "y": 430,
+      "funcion": "Lo que finalmente dices.",
+      "enLider": "Una respuesta clara que suma aliados.",
+      "enNoLider": "Una reacción que le cuesta credibilidad."
+    }
+  ],
+  "aristas": [
+    [
+      "crisis",
+      "alarma"
+    ],
+    [
+      "alarma",
+      "instinto"
+    ],
+    [
+      "orgullo",
+      "instinto"
+    ],
+    [
+      "instinto",
+      "voz"
+    ],
+    [
+      "alarma",
+      "pausa"
+    ],
+    [
+      "pausa",
+      "escucha"
+    ],
+    [
+      "escucha",
+      "archivo"
+    ],
+    [
+      "archivo",
+      "prediccion"
+    ],
+    [
+      "prediccion",
+      "brujula"
+    ],
+    [
+      "brujula",
+      "orden"
+    ],
+    [
+      "orden",
+      "puente"
+    ],
+    [
+      "puente",
+      "voz"
+    ],
+    [
+      "archivo",
+      "seguridad"
+    ],
+    [
+      "prediccion",
+      "seguridad"
+    ],
+    [
+      "orden",
+      "seguridad"
+    ]
+  ],
+  "cruzadas": [
+    {
+      "id": "respirar",
+      "de": "pausa",
+      "a": "alarma",
+      "etiqueta": "respirar apaga la alarma"
+    },
+    {
+      "id": "anticipar",
+      "de": "prediccion",
+      "a": "pausa",
+      "etiqueta": "si lo anticipaste, te asusta menos"
+    },
+    {
+      "id": "observar",
+      "de": "escucha",
+      "a": "puente",
+      "etiqueta": "lo que observas te dice con quién aliarte"
+    },
+    {
+      "id": "estudiar",
+      "de": "archivo",
+      "a": "seguridad",
+      "etiqueta": "estudiar te da seguridad"
+    },
+    {
+      "id": "orgullo",
+      "de": "orgullo",
+      "a": "brujula",
+      "etiqueta": "el orgullo se vuelve defender intereses, no el ego"
+    }
+  ],
+  "pasos": [
+    {
+      "camino": "no-lider",
+      "activos": [
+        "crisis"
+      ],
+      "aristas": [],
+      "titulo": "Llega la crisis",
+      "texto": "Algo inesperado pasa en el comité. Hasta aquí, los dos cerebros son iguales."
+    },
+    {
+      "camino": "no-lider",
+      "activos": [
+        "crisis",
+        "alarma"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ]
+      ],
+      "titulo": "Suena la alarma",
+      "texto": "La emoción avisa que algo importa: calor en la cara, corazón rápido."
+    },
+    {
+      "camino": "no-lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "instinto",
+        "orgullo"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "instinto"
+        ],
+        [
+          "orgullo",
+          "instinto"
+        ]
+      ],
+      "titulo": "El instinto toma el volante",
+      "texto": "El orgullo empuja («no me humilles») y el instinto decide antes de que la razón se entere. Es un secuestro emocional."
+    },
+    {
+      "camino": "no-lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "instinto",
+        "orgullo",
+        "voz"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "instinto"
+        ],
+        [
+          "orgullo",
+          "instinto"
+        ],
+        [
+          "instinto",
+          "voz"
+        ]
+      ],
+      "titulo": "Reacciona",
+      "texto": "Ataca, huye o se congela. Todo lo verde quedó apagado."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis"
+      ],
+      "aristas": [],
+      "titulo": "La misma crisis",
+      "texto": "Ahora, el cerebro de un líder. Mismas partes, mismo lugar. Mira por dónde viaja la señal."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ]
+      ],
+      "titulo": "También suena la alarma",
+      "texto": "El líder también siente. La alarma no es el problema: es una señal."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "pausa"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "pausa"
+        ]
+      ],
+      "cruzadas": [
+        "respirar"
+      ],
+      "titulo": "Pausa",
+      "texto": "Bota el aire lento y gana tres segundos. Respirar apaga la alarma."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "pausa",
+        "escucha"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "pausa"
+        ],
+        [
+          "pausa",
+          "escucha"
+        ]
+      ],
+      "titulo": "Escucha",
+      "texto": "Entiende qué pasó realmente: el contenido completo, no solo el tono."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "pausa",
+        "escucha",
+        "archivo",
+        "seguridad"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "pausa"
+        ],
+        [
+          "pausa",
+          "escucha"
+        ],
+        [
+          "escucha",
+          "archivo"
+        ]
+      ],
+      "cruzadas": [
+        "estudiar"
+      ],
+      "seguridad": true,
+      "titulo": "Lo que sé",
+      "texto": "Recuerda la política de su país y los datos que estudió. Estudiar le da seguridad."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "pausa",
+        "escucha",
+        "archivo",
+        "prediccion",
+        "seguridad"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "pausa"
+        ],
+        [
+          "pausa",
+          "escucha"
+        ],
+        [
+          "escucha",
+          "archivo"
+        ],
+        [
+          "archivo",
+          "prediccion"
+        ]
+      ],
+      "cruzadas": [
+        "anticipar"
+      ],
+      "seguridad": true,
+      "titulo": "Anticipo",
+      "texto": "Ya había previsto esta objeción. Lo que anticipaste te asusta menos."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "pausa",
+        "escucha",
+        "archivo",
+        "prediccion",
+        "brujula",
+        "orgullo",
+        "seguridad"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "pausa"
+        ],
+        [
+          "pausa",
+          "escucha"
+        ],
+        [
+          "escucha",
+          "archivo"
+        ],
+        [
+          "archivo",
+          "prediccion"
+        ],
+        [
+          "prediccion",
+          "brujula"
+        ]
+      ],
+      "cruzadas": [
+        "orgullo"
+      ],
+      "seguridad": true,
+      "titulo": "Propósito",
+      "texto": "¿Qué necesita mi país? El orgullo no desaparece: se pone al servicio de los intereses, no del ego."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "pausa",
+        "escucha",
+        "archivo",
+        "prediccion",
+        "brujula",
+        "orden",
+        "seguridad"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "pausa"
+        ],
+        [
+          "pausa",
+          "escucha"
+        ],
+        [
+          "escucha",
+          "archivo"
+        ],
+        [
+          "archivo",
+          "prediccion"
+        ],
+        [
+          "prediccion",
+          "brujula"
+        ],
+        [
+          "brujula",
+          "orden"
+        ]
+      ],
+      "seguridad": true,
+      "titulo": "Ordeno",
+      "texto": "¿Qué? ¿Y qué? ¿Y ahora qué? Un molde para responder claro y con salida."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "pausa",
+        "escucha",
+        "archivo",
+        "prediccion",
+        "brujula",
+        "orden",
+        "puente",
+        "seguridad"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "pausa"
+        ],
+        [
+          "pausa",
+          "escucha"
+        ],
+        [
+          "escucha",
+          "archivo"
+        ],
+        [
+          "archivo",
+          "prediccion"
+        ],
+        [
+          "prediccion",
+          "brujula"
+        ],
+        [
+          "brujula",
+          "orden"
+        ],
+        [
+          "orden",
+          "puente"
+        ]
+      ],
+      "cruzadas": [
+        "observar"
+      ],
+      "seguridad": true,
+      "titulo": "Alianzas",
+      "texto": "Lo que observó le dice con quién aliarse. Baja la amenaza del otro y le da una salida digna."
+    },
+    {
+      "camino": "lider",
+      "activos": [
+        "crisis",
+        "alarma",
+        "pausa",
+        "escucha",
+        "archivo",
+        "prediccion",
+        "brujula",
+        "orden",
+        "puente",
+        "seguridad",
+        "voz"
+      ],
+      "aristas": [
+        [
+          "crisis",
+          "alarma"
+        ],
+        [
+          "alarma",
+          "pausa"
+        ],
+        [
+          "pausa",
+          "escucha"
+        ],
+        [
+          "escucha",
+          "archivo"
+        ],
+        [
+          "archivo",
+          "prediccion"
+        ],
+        [
+          "prediccion",
+          "brujula"
+        ],
+        [
+          "brujula",
+          "orden"
+        ],
+        [
+          "orden",
+          "puente"
+        ],
+        [
+          "puente",
+          "voz"
+        ],
+        [
+          "archivo",
+          "seguridad"
+        ],
+        [
+          "prediccion",
+          "seguridad"
+        ],
+        [
+          "orden",
+          "seguridad"
+        ]
+      ],
+      "seguridad": true,
+      "titulo": "Habla",
+      "texto": "Responde claro, con propuesta y con aliados. Y todo esto pasa en menos de un minuto."
+    }
+  ],
+  "resultados": {
+    "no-lider": "Atacas, huyes o te congelas. Pierdes credibilidad y aliados.",
+    "lider": "Respondes claro, sumas aliados y lideras."
+  },
+  "escenarios": [
+    {
+      "id": "acusacion",
+      "titulo": "Te acusan de financiar a un grupo armado",
+      "noLider": "«¡Eso es falso! El que financia grupos armados es su país.»",
+      "lider": "«Tomamos la acusación con seriedad. Pedimos que se compartan las pruebas y proponemos una verificación independiente. Invitamos a los países de la región a acompañarla.»",
+      "porNodo": {
+        "pausa": "Exhala largo antes de levantar la placa.",
+        "escucha": "¿Quién hizo la acusación y con qué fuente?",
+        "archivo": "Su país apoya los mecanismos de verificación.",
+        "prediccion": "Esperaba que el rival regional lo intentara.",
+        "brujula": "Su país necesita credibilidad, no ganar la discusión.",
+        "orden": "Qué: tomamos la acusación con seriedad. Y qué: está en juego la confianza regional. Y ahora qué: verificación independiente.",
+        "puente": "Invita a los vecinos a copatrocinar la verificación."
+      }
+    },
+    {
+      "id": "votos",
+      "titulo": "Te faltan dos votos para aprobar tu resolución",
+      "noLider": "«¡Este comité no entiende la urgencia del problema!»",
+      "lider": "«Solicitamos un caucus de cinco minutos.» Habla con dos indecisos y acepta una enmienda amistosa.",
+      "porNodo": {
+        "pausa": "Siente el pecho cerrado; respira dos veces.",
+        "escucha": "¿Quiénes se abstuvieron en la votación anterior?",
+        "archivo": "Recuerda qué cláusulas les preocupaban.",
+        "prediccion": "Sabía que la cláusula 5 era el punto débil.",
+        "brujula": "Lo importante es que se apruebe, no que salga exactamente como la escribió.",
+        "orden": "Qué: estamos abiertos a ajustar la cláusula 5. Y qué: así protegemos a todos. Y ahora qué: una enmienda amistosa.",
+        "puente": "Les ofrece incluir su idea: su sí se vuelve un logro para ellos."
+      }
+    },
+    {
+      "id": "burla",
+      "titulo": "Otro delegado se burla de tu propuesta en el caucus",
+      "noLider": "Se pone rojo, se queda callado y deja de proponer el resto de la sesión.",
+      "lider": "«Entendemos que suene ambiciosa. Está basada en un programa que ya funciona en nuestra región. ¿Qué parte les preocupa? Podemos ajustarla juntos.»",
+      "porNodo": {
+        "pausa": "Nota la vergüenza y la nombra: «esto es emoción».",
+        "escucha": "¿La burla es contra la idea o contra un detalle?",
+        "archivo": "Tiene un caso real que respalda su propuesta.",
+        "prediccion": "Sabía que la iban a llamar «poco realista».",
+        "brujula": "Su país necesita la propuesta, no tener la última palabra.",
+        "orden": "Qué: la propuesta es viable. Y qué: ya funciona en la región. Y ahora qué: ajustarla juntos.",
+        "puente": "Invita a quien se burló a mejorarla: le da una salida digna."
+      }
+    }
+  ],
+  "saberMas": [
+    "Daniel Kahneman (Pensar rápido, pensar despacio): el Sistema 1 es rápido y automático; el Sistema 2 es lento, consciente y de atención limitada. El instinto y la emoción trabajan en el primero; la razón, en el segundo.",
+    "Daniel Goleman (Inteligencia emocional): ante una amenaza, el cerebro puede disparar una reacción antes de que la parte racional evalúe. Lo llama secuestro emocional.",
+    "Aviso: el modelo del cerebro triuno de Paul MacLean (reptiliano, límbico, neocórtex) es una metáfora didáctica. La neurociencia actual lo considera una simplificación: el cerebro funciona en redes conectadas."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "titulo": "Laboratorio de persuasión",
+  "bajada": "Persuadir es lograr que otro diga que sí por decisión propia. Aquí practicas los principios, aprendes a detectarlos y construyes tu propuesta.",
+  "secciones": {
+    "principios": "Los 7 principios de Cialdini",
+    "clasificar": "¿Qué principio es? ¿Persuasión o manipulación?",
+    "claves": "Las 6 claves para hablarle al instinto del otro",
+    "constructor": "Constructor de propuesta",
+    "etica": "Persuadir con verdad, no manipular"
+  },
+  "principiosIntro": "Por qué funciona cada principio y cómo se usa con honestidad en un comité.",
+  "clasificar": {
+    "intro": "Lee cada frase de negociación. Primero identifica el principio y después decide si es persuasión honesta o manipulación.",
+    "principio": "¿Qué principio usa?",
+    "elige": "Elige uno",
+    "etica": "¿Es honesta?",
+    "honesta": "Persuasión honesta",
+    "manipulacion": "Manipulación",
+    "comprobar": "Comprobar",
+    "siguiente": "Siguiente frase",
+    "principioOk": "Principio correcto",
+    "principioMal": "El principio era",
+    "eticaOk": "Bien visto",
+    "eticaMal": "Revísalo",
+    "resultado": "Resultado",
+    "repetir": "Jugar otra vez",
+    "items": [
+      { "frase": "«Te paso el informe de la FAO que buscabas. Cuando puedas, mira nuestra cláusula 2.»", "principio": "reciprocidad", "honesta": true, "explicacion": "Da algo real y útil primero, sin exigir nada a cambio." },
+      { "frase": "«Ya firmaron veinte países» (cuando en realidad firmaron ocho).", "principio": "prueba-social", "honesta": false, "explicacion": "Inventa la prueba social. Funciona una vez y destruye tu credibilidad." },
+      { "frase": "«¿Estamos de acuerdo en que el acceso al agua es urgente? Entonces revisemos esta cláusula juntos.»", "principio": "compromiso", "honesta": true, "explicacion": "Parte de un acuerdo real y pequeño para avanzar." },
+      { "frase": "«La mesa me dijo en privado que apoya nuestra resolución» (no es cierto).", "principio": "autoridad", "honesta": false, "explicacion": "Usa una autoridad falsa para presionar." },
+      { "frase": "«Como países del sur, tenemos más fuerza si votamos juntos.»", "principio": "unidad", "honesta": true, "explicacion": "Apela a una identidad compartida real." },
+      { "frase": "«Si no firmas en los próximos 30 segundos, te quedas fuera para siempre» (el plazo real es mañana).", "principio": "escasez", "honesta": false, "explicacion": "Urgencia inventada: busca que el Sistema 1 decida sin pensar." },
+      { "frase": "«Según la resolución 2417 del Consejo de Seguridad, el hambre no puede usarse como arma de guerra.»", "principio": "autoridad", "honesta": true, "explicacion": "Se apoya en un precedente verificable." },
+      { "frase": "«Me encantó tu discurso de ayer; aprendí mucho de tu postura.» (y es verdad)", "principio": "simpatia", "honesta": true, "explicacion": "Un reconocimiento sincero genera confianza." },
+      { "frase": "«Cerramos la lista de patrocinadores al final de este caucus, como acordó el bloque.»", "principio": "escasez", "honesta": true, "explicacion": "El límite es real y conocido por todos." },
+      { "frase": "«Te ayudé con tus cifras, así que me debes tu voto aunque no te convenga.»", "principio": "reciprocidad", "honesta": false, "explicacion": "Convierte un favor en deuda para que actúe contra su interés." }
+    ]
+  },
+  "constructor": {
+    "intro": "Escribe tu propuesta como la dirías en el caucus. La lista de abajo te indica qué claves estás usando.",
+    "etiqueta": "Tu propuesta",
+    "ejemplo": "Ejemplo: Proponemos un fondo regional de agua. Con esta cláusula, tu país recibe apoyo primero. Sin acuerdo, 2 millones de personas siguen sin agua; con acuerdo, empezamos en seis meses. Imagina a las familias del río abajo. Por eso proponemos este fondo hoy.",
+    "usarEjemplo": "Usar el ejemplo",
+    "borrar": "Borrar",
+    "usando": "Estás usando",
+    "faltan": "Podrías agregar",
+    "nota": "La revisión es automática y aproximada: busca palabras y patrones típicos de cada clave. Úsala como guía, no como calificación.",
+    "contador": "claves de 6",
+    "claves": [
+      { "id": "egocentrico", "nombre": "Háblale de él", "consejo": "Menciona qué gana su país: «tu región», «para ustedes».", "palabras": ["tu ", "tus ", "su país", "sus países", "ustedes", "tu región", "su región", "le conviene", "les conviene", "para ti", "su delegación", "tu delegación"] },
+      { "id": "contraste", "nombre": "Contraste", "consejo": "Muestra un antes y un después: «sin acuerdo… con acuerdo…».", "palabras": ["sin acuerdo", "con acuerdo", "en cambio", "antes", "después", "si no ", "si no,", "hoy ", "mañana", "en lugar de"] },
+      { "id": "tangible", "nombre": "Concreto", "consejo": "Agrega una cifra, un plazo o un paso claro.", "palabras": ["%", "millones", "mil ", "meses", "años", "días", "paso", "plazo"], "numeros": true },
+      { "id": "principioFin", "nombre": "Principio y fin", "consejo": "Abre y cierra con tu propuesta (usa «proponemos» en la primera y la última frase).", "palabras": ["propon", "propuesta", "cláusula", "enmienda", "resolución", "fondo", "misión"] },
+      { "id": "visual", "nombre": "Visual", "consejo": "Ayuda a imaginar: «imagina», «piensa en», «como un mapa».", "palabras": ["imagin", "piensa en", "piensen en", "dibuj", "mapa", "como si", "visualic", "mira "] },
+      { "id": "emocion", "nombre": "Emoción", "consejo": "Pon una historia o personas reales detrás de la cifra.", "palabras": ["familia", "niñ", "jóvenes", "madre", "padre", "historia", "vida", "personas", "esperanza", "miedo", "comunidad"] }
+    ]
+  },
+  "etica": {
+    "intro": "Los mismos principios pueden ayudar o engañar. La diferencia está en la verdad y en el interés del otro.",
+    "persuadir": {
+      "titulo": "Persuadir",
+      "puntos": ["Dices la verdad: firmas reales, plazos reales, datos verificables.", "Ayudas al otro a ver por qué le conviene.", "El otro puede decir que no sin perder la cara.", "Construye confianza para todo el modelo."]
+    },
+    "manipular": {
+      "titulo": "Manipular",
+      "puntos": ["Inventas firmas, urgencias o autoridades.", "Buscas que el otro actúe contra su interés.", "Presionas para que decida sin pensar.", "Funciona una vez y destruye tu credibilidad."]
+    },
+    "protegerte": {
+      "titulo": "Protégete",
+      "texto": "Cuando sientas prisa («se acaba el tiempo», «todos ya firmaron»), nota la presión, frena y pregúntate: ¿esto le conviene a mi país?"
+    }
+  }
+}

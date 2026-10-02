@@ -1,0 +1,37 @@
+{
+  "notar": {
+    "titulo": "1. Notar",
+    "texto": "Te acaban de criticar frente a todo el comité. ¿Qué señales notarías en tu cuerpo? Marca las que te pasan a ti.",
+    "senales": ["Calor en la cara", "Corazón rápido", "Ganas de interrumpir", "Mente en blanco", "Manos que tiemblan", "Voz más aguda"],
+    "cierre": "Ponerles nombre ya les quita fuerza: «estoy activado»."
+  },
+  "frenar": {
+    "titulo": "2. Frenar",
+    "texto": "Haz tres respiraciones: toma aire en 3 tiempos y bótalo en 6.",
+    "inhala": "Toma aire",
+    "exhala": "Bota el aire lento",
+    "boton": "Empezar 3 respiraciones",
+    "listo": "Listo. Así se siente ganar unos segundos.",
+    "cierre": "Contar tres segundos, tomar una nota o pedir un punto de información también te compran tiempo."
+  },
+  "reencuadrar": {
+    "titulo": "3. Reencuadrar",
+    "texto": "Elige la historia que le devuelve el volante a la razón.",
+    "casos": [
+      {
+        "amenaza": "«Me están atacando frente a todos.»",
+        "opciones": [
+          { "texto": "«Tengo que callarlo antes de que me deje mal.»", "correcta": false, "explicacion": "Esa historia le entrega el volante al instinto." },
+          { "texto": "«Es la oportunidad de mostrar cómo resuelve mi país.»", "correcta": true, "explicacion": "La amenaza se vuelve oportunidad." }
+        ]
+      },
+      {
+        "amenaza": "«Estoy nerviosísimo, voy a quedar en ridículo.»",
+        "opciones": [
+          { "texto": "«Esto es emoción: me importa y tengo energía para hablar.»", "correcta": true, "explicacion": "Llamar «emoción» a los nervios cambia cómo los vives." },
+          { "texto": "«Mejor no hablo esta ronda.»", "correcta": false, "explicacion": "Huir también es una reacción del instinto." }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "titulo": "Para saber más",
+  "bajada": "Las ideas de esta plataforma vienen de estos autores. Aquí están parafraseadas y explicadas; si te interesan, vale la pena leer los libros completos.",
+  "fuentes": [
+    { "autor": "Daniel Kahneman", "obra": "Pensar rápido, pensar despacio", "idea": "La mente funciona con dos sistemas: uno rápido y automático (Sistema 1) y otro lento y consciente (Sistema 2), cuya atención es limitada. Lo que se practica mucho pasa al Sistema 1, y la intuición de un experto es confiable cuando nace de mucha práctica con retroalimentación.", "dondeLoVes": "Lecciones 5, 6 y 11" },
+    { "autor": "Daniel Goleman", "obra": "Inteligencia emocional", "idea": "Ante una amenaza, el cerebro puede disparar una reacción emocional antes de que la parte racional evalúe la situación: el secuestro emocional. El autocontrol y el conocimiento de las propias emociones están en el centro de la inteligencia emocional.", "dondeLoVes": "Lecciones 6 y 7" },
+    { "autor": "Matt Abrahams", "obra": "Piensa rápido, habla mejor", "idea": "Improvisación estructurada: responder sin guion pero con un molde aprendido. También propone manejar la ansiedad con exhalaciones largas y ver la situación como oportunidad, no como amenaza.", "dondeLoVes": "Lecciones 7 y 8" },
+    { "autor": "Robert Cialdini", "obra": "Influencia", "idea": "Muchas veces decimos que sí por atajos mentales ante ciertas señales. Describe principios como reciprocidad, compromiso y coherencia, prueba social, autoridad, simpatía, escasez y unidad. Conocerlos sirve para persuadir con honestidad y para detectar la presión.", "dondeLoVes": "Lecciones 2 y 9" },
+    { "autor": "Grant Cardone", "obra": "Vendes o vendes", "idea": "La diferencia entre el aficionado, que se dedica a algo sin verdadero interés ni competencia, y el profesional, que se prepara tanto que empieza a predecir objeciones.", "dondeLoVes": "Lecciones 2 y 8" },
+    { "autor": "Seth Godin", "obra": "Tribus", "idea": "El líder conecta a un grupo alrededor de una idea compartida y le da una forma de comunicarse. No empuja: lidera.", "dondeLoVes": "Lección 10" },
+    { "autor": "Dan Roam", "obra": "La clave es la servilleta", "idea": "El pensamiento visual empieza por mirar y ver: recorrer todo el panorama y detectar patrones, antes de imaginar y mostrar soluciones.", "dondeLoVes": "Lección 8" },
+    { "autor": "Patrick Renvoisé y Christophe Morin", "obra": "Neuromarketing", "idea": "Seis estímulos que llegan a la parte más instintiva de una decisión: lo que le importa a la persona, el contraste, lo tangible, el principio y el fin, lo visual y la emoción.", "dondeLoVes": "Lección 10" },
+    { "autor": "Paul MacLean", "obra": "Modelo del cerebro triuno", "idea": "Propuso dividir el cerebro en tres capas (reptiliana, límbica y neocórtex). Aquí lo usamos solo como metáfora de los tres pilotos.", "dondeLoVes": "Lección 6 y Dos cerebros" }
+  ],
+  "avisos": [
+    { "titulo": "Sobre los tres cerebros", "texto": "El modelo de los tres cerebros es una metáfora didáctica. La neurociencia actual lo considera una simplificación: el cerebro no trabaja en tres capas separadas, sino en redes conectadas. Lo usamos porque se entiende al instante y ayuda a recordar." },
+    { "titulo": "Sobre el 30 %", "texto": "El dato de que lo heredado explica cerca de un 30 % de quién llega a liderar es aproximado. Viene de estudios con gemelos y conviene citarlo como estimación." }
+  ]
+}

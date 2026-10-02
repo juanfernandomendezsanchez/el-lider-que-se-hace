@@ -1,0 +1,48 @@
+{
+  "id": "faltan-votos",
+  "slug": "te-faltan-dos-votos",
+  "orden": 2,
+  "titulo": "Te faltan dos votos",
+  "resumen": "Tu resolución está a punto de votarse y el conteo informal dice que no alcanza.",
+  "contexto": "Comité de Desarrollo Sostenible, última sesión. Eres patrocinador principal de una resolución sobre agua potable. Necesitas mayoría simple.",
+  "temporizadorSeg": 30,
+  "siSeAcabaElTiempo": {
+    "consecuencia": "La mesa abre la votación. Pierdes por dos votos.",
+    "explicacion": "Bajo presión, el reloj juega para el instinto. Tener entrenada la pregunta «¿quién está indeciso y qué necesita?» te habría dado un siguiente paso."
+  },
+  "inicio": "inicio",
+  "nodos": {
+    "inicio": {
+      "situacion": "Tu aliada te susurra: «Contamos de nuevo. Nos faltan dos votos». Se te cierra el pecho. La mesa está por abrir la votación.",
+      "opciones": [
+        { "id": "a", "texto": "Pides la palabra: «Este comité no entiende la urgencia. Si no aprueban esto, serán responsables».", "piloto": "instinto", "consecuencia": "Dos indecisos se sienten acusados y deciden votar en contra.", "explicacion": "Atacar al comité es el instinto culpando a otros. Nadie vota a favor de quien lo acusa.", "siguiente": "reaccion" },
+        { "id": "b", "texto": "Respiras dos veces y te preguntas: «¿Quién está indeciso y qué necesita?». Pides un caucus de cinco minutos.", "piloto": "razon", "consecuencia": "La mesa concede el caucus. Tienes cinco minutos para hablar con dos países.", "explicacion": "Notar, frenar y hacer la pregunta correcta: el dominio de uno mismo en acción.", "siguiente": "razon" },
+        { "id": "c", "texto": "Te desanimas y le dices a tu aliada: «Ya fue, perdimos».", "piloto": "emocion", "consecuencia": "Tu aliada también se desanima. Nadie mueve un dedo antes de la votación.", "explicacion": "La emoción leyó la situación como derrota antes de tiempo." },
+        { "id": "d", "texto": "Le ofreces a un indeciso apoyar su resolución a cambio de su voto, aunque esa resolución vaya contra la política de tu país.", "piloto": "emocion", "consecuencia": "Consigues un voto, pero tu país queda comprometido con algo que no puede sostener.", "explicacion": "La urgencia te hizo olvidar el propósito. Ganar a cualquier costo no es liderar.", "siguiente": "reaccion" }
+      ]
+    },
+    "razon": {
+      "situacion": "En el caucus, los dos indecisos te dicen lo mismo: la cláusula 5 obliga a sus gobiernos a invertir un porcentaje fijo que no pueden pagar.",
+      "opciones": [
+        { "id": "e", "texto": "«Entendemos. ¿Y si la cláusula dice «según sus capacidades» y suma un fondo de cooperación? Podríamos presentarla como enmienda de ustedes.»", "piloto": "razon", "consecuencia": "Aceptan. La enmienda se aprueba como amistosa y la resolución pasa con cuatro votos de margen.", "explicacion": "Bajaste la amenaza, les diste una salida digna y su sí se volvió un logro propio." },
+        { "id": "f", "texto": "«La cláusula 5 no se toca. Es lo más importante de la resolución.»", "piloto": "instinto", "consecuencia": "Se van. Pierdes la votación por dos votos.", "explicacion": "Defendiste el texto como territorio propio: el dueño del documento." },
+        { "id": "g", "texto": "«Ya firmaron doce países, no pueden quedarse fuera.»", "piloto": "emocion", "consecuencia": "Uno cede por presión; el otro se molesta y vota en contra. Te sigue faltando un voto.", "explicacion": "La prueba social sin escuchar su problema real suena a presión, no a persuasión." }
+      ]
+    },
+    "reaccion": {
+      "situacion": "Antes de la votación, la mesa da un último minuto para comentarios.",
+      "opciones": [
+        { "id": "h", "texto": "«Retiramos lo dicho. Pedimos un caucus breve para escuchar las preocupaciones que quedan.»", "piloto": "razon", "consecuencia": "La mesa concede dos minutos. Logras un voto más; la votación termina empatada y se repite.", "explicacion": "Recuperar el volante tarde es mejor que nunca." },
+        { "id": "i", "texto": "Insistes en que quienes voten en contra «están del lado equivocado de la historia».", "piloto": "instinto", "consecuencia": "Pierdes por cuatro votos.", "explicacion": "Cada acusación suma un voto en contra." },
+        { "id": "j", "texto": "No dices nada y esperas el resultado.", "piloto": "emocion", "consecuencia": "Pierdes por dos votos.", "explicacion": "Quedaba tiempo para una última acción. La resignación también es un piloto." }
+      ]
+    }
+  },
+  "respuestaModelo": [
+    { "paso": "Pausa", "accion": "Notas el pecho cerrado, lo nombras («estoy entrando en pánico») y respiras dos veces." },
+    { "paso": "Analiza", "accion": "¿Quiénes se abstuvieron antes? ¿Qué cláusula les preocupa?" },
+    { "paso": "Ubica", "accion": "Tu país necesita que se apruebe, no que salga palabra por palabra como la escribiste." },
+    { "paso": "Ordena", "accion": "Pides un caucus. Qué: estamos abiertos a ajustar la cláusula 5. Y qué: así nadie queda fuera. Y ahora qué: una enmienda amistosa." },
+    { "paso": "Alíate", "accion": "La enmienda lleva el nombre de los indecisos: su sí es un logro para ellos." }
+  ]
+}

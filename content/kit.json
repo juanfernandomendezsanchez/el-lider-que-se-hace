@@ -1,0 +1,49 @@
+{
+  "titulo": "Kit para tu próximo modelo",
+  "bajada": "Todo lo que conviene llevar listo: antes, durante y después del comité.",
+  "secciones": {
+    "antes": "Antes: checklist de preparación",
+    "durante": "Durante: tu tarjeta PAUSA",
+    "despues": "Después: reflexión posterior"
+  },
+  "checklist": {
+    "intro": "Marca cada punto cuando lo tengas. Puedes escribir tus notas al lado; todo se guarda en este dispositivo.",
+    "completo": "Checklist completo. Llegas como profesional, no como aficionado.",
+    "reiniciar": "Reiniciar para otro modelo",
+    "notas": "Tus notas",
+    "items": [
+      { "id": "pais", "texto": "Investigué a mi país: gobierno, economía, alianzas y votaciones recientes sobre el tema.", "placeholder": "Datos clave de mi país…" },
+      { "id": "posicion", "texto": "Escribí la posición de mi país en una frase.", "placeholder": "Nuestra delegación sostiene que…" },
+      { "id": "necesita", "texto": "Tengo claro qué necesita mi país de este comité (mi propósito).", "placeholder": "Mi país necesita…" },
+      { "id": "objeciones", "texto": "Escribí las 5 objeciones más probables y cómo respondería cada una.", "placeholder": "1. Objeción → respuesta…" },
+      { "id": "aliados", "texto": "Identifiqué aliados posibles y qué le importa a cada uno.", "placeholder": "País → qué le importa…" },
+      { "id": "apertura", "texto": "Preparé mi discurso de apertura con ¿Qué? ¿Y qué? ¿Y ahora qué?", "placeholder": "Qué / Y qué / Y ahora qué…" },
+      { "id": "primera-frase", "texto": "Tengo una primera frase automática para cuando me sorprendan.", "placeholder": "Tomamos esta información con seriedad…" }
+    ]
+  },
+  "tarjeta": {
+    "intro": "Imprímela o guárdala como fondo de pantalla del teléfono. Una pregunta clave por paso.",
+    "titulo": "¿Quién maneja mi cerebro?",
+    "pie": "Exhala largo. La razón al volante.",
+    "imprimir": "Imprimir tarjeta",
+    "fondo": "Descargar fondo de pantalla",
+    "generando": "Generando imagen…"
+  },
+  "reflexion": {
+    "intro": "Respóndela el mismo día del modelo, en caliente. La intuición solo mejora con retroalimentación.",
+    "modelo": "Nombre del modelo o comité",
+    "preguntas": [
+      "¿En qué momento me secuestró el instinto o la emoción? ¿Qué lo disparó?",
+      "¿Qué funcionó? ¿En qué momento la razón tuvo el volante?",
+      "¿Quién siguió mis ideas sin que yo estuviera? (prueba de los 20 minutos)",
+      "¿Qué objeción no anticipé?",
+      "¿Qué voy a practicar antes del próximo modelo?"
+    ],
+    "guardar": "Guardar reflexión",
+    "guardada": "Reflexión guardada",
+    "anteriores": "Reflexiones anteriores",
+    "sinAnteriores": "Todavía no has guardado reflexiones.",
+    "borrar": "Borrar",
+    "confirmarBorrar": "¿Borrar esta reflexión? No se puede deshacer."
+  }
+}

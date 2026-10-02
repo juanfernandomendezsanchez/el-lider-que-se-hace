@@ -1,0 +1,128 @@
+{
+  "titulo": "¿Qué delegado eres hoy?",
+  "bajada": "Diez situaciones de comité. Elige lo que harías de verdad, no lo que deberías hacer. Al final verás qué te frena hoy y por dónde empezar.",
+  "nota": "No es un examen ni una etiqueta. Es una foto de hoy; puedes repetirlo después de cada modelo.",
+  "empezar": "Empezar el diagnóstico",
+  "situacion": "Situación",
+  "resultadoTitulo": "Esto es lo que hoy te frena",
+  "liderTitulo": "Hoy respondes como líder en la mayoría de las situaciones",
+  "liderTexto": "Vas bien. Aun así, esta es la pieza que más te conviene entrenar:",
+  "habilidad": "Habilidad que te falta",
+  "lecciones": "Lecciones que lo trabajan",
+  "practica": "Para practicar",
+  "repetir": "Repetir el diagnóstico",
+  "ultimo": "Tu último resultado",
+  "respuestasLider": "respuestas de líder",
+  "preguntas": [
+    {
+      "id": "d1",
+      "situacion": "En el caucus, otro delegado dice que tu propuesta «no tiene ningún sentido».",
+      "opciones": [
+        { "texto": "Le respondo de inmediato y con el mismo tono.", "antimodelo": "explosivo" },
+        { "texto": "Me quedo en blanco y dejo que otro hable.", "antimodelo": "congelado" },
+        { "texto": "Respiro, le pregunto qué parte no le convence y la ajusto.", "antimodelo": null },
+        { "texto": "Cambio mi propuesta por la suya para evitar el conflicto.", "antimodelo": "veleta" }
+      ]
+    },
+    {
+      "id": "d2",
+      "situacion": "Empieza la lista de oradores del día.",
+      "opciones": [
+        { "texto": "Me anoto en todas las rondas: si no hablo, no existo.", "antimodelo": "el-que-mas-habla" },
+        { "texto": "Me anoto una vez y uso el resto del tiempo para escuchar qué quiere cada país.", "antimodelo": null },
+        { "texto": "Me anoto para lucirme ante la mesa; los premios se ganan hablando.", "antimodelo": "cazador-de-premios" },
+        { "texto": "No me anoto: todavía no tengo clara la postura de mi país.", "antimodelo": "aficionado" }
+      ]
+    },
+    {
+      "id": "d3",
+      "situacion": "Tu bloque empieza a redactar el borrador de resolución.",
+      "opciones": [
+        { "texto": "Tomo la computadora y lo escribo yo, así sale bien.", "antimodelo": "dueno-del-documento" },
+        { "texto": "Reparto cláusulas según lo que le importa a cada país.", "antimodelo": null },
+        { "texto": "Me aseguro de que mi nombre quede como patrocinador principal.", "antimodelo": "cazador-de-premios" },
+        { "texto": "Firmo lo que el grupo decida, sin revisar.", "antimodelo": "automatico" }
+      ]
+    },
+    {
+      "id": "d4",
+      "situacion": "La mesa te pregunta, sin aviso, la postura de tu país sobre un tema que no estudiaste a fondo.",
+      "opciones": [
+        { "texto": "Improviso algo que suene bien.", "antimodelo": "aficionado" },
+        { "texto": "Me bloqueo y pido que me salten.", "antimodelo": "congelado" },
+        { "texto": "Uso lo que sé de los principios de mi país, propongo un paso y pido un momento para precisar.", "antimodelo": null },
+        { "texto": "Hablo dos minutos sobre otro tema que sí domino.", "antimodelo": "el-que-mas-habla" }
+      ]
+    },
+    {
+      "id": "d5",
+      "situacion": "Un delegado te dice: «Ya firmaron todos, solo faltas tú. Se cierra en dos minutos».",
+      "opciones": [
+        { "texto": "Firmo rápido para no quedar fuera.", "antimodelo": "automatico" },
+        { "texto": "Leo las cláusulas clave y firmo solo si le conviene a mi país.", "antimodelo": null },
+        { "texto": "Firmo, aunque mi país no esté de acuerdo, para no quedar mal.", "antimodelo": "veleta" },
+        { "texto": "Me molesto por la presión y le digo que no me apure.", "antimodelo": "explosivo" }
+      ]
+    },
+    {
+      "id": "d6",
+      "situacion": "Una actualización de crisis acusa a tu país frente a todo el comité.",
+      "opciones": [
+        { "texto": "Contraataco acusando a quien creo que está detrás.", "antimodelo": "explosivo" },
+        { "texto": "Pido las pruebas y propongo una verificación.", "antimodelo": null },
+        { "texto": "No digo nada y espero a que pase.", "antimodelo": "congelado" },
+        { "texto": "Respondo con datos que no tengo confirmados.", "antimodelo": "aficionado" }
+      ]
+    },
+    {
+      "id": "d7",
+      "situacion": "Otro delegado propone una idea mejor que la tuya.",
+      "opciones": [
+        { "texto": "La critico: si gana la suya, pierdo protagonismo.", "antimodelo": "cazador-de-premios" },
+        { "texto": "La integro en nuestra cláusula y le doy el crédito.", "antimodelo": null },
+        { "texto": "Insisto en mi redacción: el documento es mío.", "antimodelo": "dueno-del-documento" },
+        { "texto": "Abandono mi idea y apoyo la suya sin pensarlo.", "antimodelo": "veleta" }
+      ]
+    },
+    {
+      "id": "d8",
+      "situacion": "Tu bloque presiona para que apoyes una cláusula que va contra la política de tu país.",
+      "opciones": [
+        { "texto": "La apoyo: no quiero quedarme solo.", "antimodelo": "veleta" },
+        { "texto": "Explico por qué no puedo y propongo una redacción que sí funcione para todos.", "antimodelo": null },
+        { "texto": "Firmo, total todos ya lo hicieron.", "antimodelo": "automatico" },
+        { "texto": "Me salgo del bloque dando un portazo.", "antimodelo": "explosivo" }
+      ]
+    },
+    {
+      "id": "d9",
+      "situacion": "Faltan 20 minutos para la votación final y el ambiente está tenso.",
+      "opciones": [
+        { "texto": "Pido la palabra otra vez para repetir mis argumentos.", "antimodelo": "el-que-mas-habla" },
+        { "texto": "Busco a los indecisos y les pregunto qué necesitan.", "antimodelo": null },
+        { "texto": "Me pongo nervioso y no hablo con nadie.", "antimodelo": "congelado" },
+        { "texto": "Cambio el texto a última hora sin consultar a mi bloque.", "antimodelo": "dueno-del-documento" }
+      ]
+    },
+    {
+      "id": "d10",
+      "situacion": "Te preparas la noche antes del modelo.",
+      "opciones": [
+        { "texto": "Leo un resumen rápido; en el comité se aprende.", "antimodelo": "aficionado" },
+        { "texto": "Escribo la postura de mi país, 5 objeciones probables y posibles aliados.", "antimodelo": null },
+        { "texto": "Preparo un discurso brillante para impresionar a la mesa.", "antimodelo": "cazador-de-premios" },
+        { "texto": "Preparo muchísimo para hablar en cada ronda.", "antimodelo": "el-que-mas-habla" }
+      ]
+    }
+  ],
+  "practicaPorAntimodelo": {
+    "el-que-mas-habla": ["/gimnasio/secuestro/", "/gimnasio/si-y/"],
+    "explosivo": ["/gimnasio/respiracion/", "/gimnasio/secuestro/"],
+    "congelado": ["/gimnasio/respiracion/", "/gimnasio/que-y-que/"],
+    "aficionado": ["/gimnasio/que-y-que/", "/kit/"],
+    "veleta": ["/kit/", "/persuasion/"],
+    "dueno-del-documento": ["/gimnasio/si-y/", "/persuasion/"],
+    "cazador-de-premios": ["/gimnasio/si-y/", "/simulador/"],
+    "automatico": ["/persuasion/", "/gimnasio/respiracion/"]
+  }
+}

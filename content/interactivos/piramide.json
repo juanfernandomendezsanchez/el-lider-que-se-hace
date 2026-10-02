@@ -1,0 +1,13 @@
+{
+  "intro": "Toca los bloques en orden, desde la raíz (abajo) hasta la punta. Pista: en cada piso pregúntate «¿qué necesito antes de esto?».",
+  "niveles": [
+    { "texto": "Dominio de uno mismo", "explicacion": "La raíz: sentir la presión sin que la presión decida por ti." },
+    { "texto": "Calma", "explicacion": "Un delegado nervioso o furioso no escucha y olvida lo que estudió." },
+    { "texto": "Conocimiento y escucha", "explicacion": "No puedes explicar lo que no dominas ni ganarte a quien no escuchaste." },
+    { "texto": "Claridad y confianza", "explicacion": "Nadie firma lo que no entiende, ni le firma a alguien en quien no confía." },
+    { "texto": "Persuasión e influencia", "explicacion": "Que otros te digan que sí." },
+    { "texto": "Resolución aprobada", "explicacion": "La meta que todos quieren. Es la punta, no el punto de partida." }
+  ],
+  "error": "Ese bloque va más arriba. ¿Qué tiene que estar firme antes?",
+  "completo": "Pirámide armada. Si el piso falla, todo lo de arriba se cae. Por eso se empieza por la raíz."
+}

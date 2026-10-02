@@ -1,0 +1,48 @@
+{
+  "id": "acusacion-crisis",
+  "slug": "acusacion-en-la-actualizacion-de-crisis",
+  "orden": 1,
+  "titulo": "Acusación en la actualización de crisis",
+  "resumen": "La mesa anuncia que tu país financia a un grupo armado. Todas las miradas van hacia ti.",
+  "contexto": "Comité de Seguridad, segunda sesión. Representas a un país con tensiones fronterizas. Tu bloque está a punto de presentar un borrador sobre desarme.",
+  "temporizadorSeg": 30,
+  "siSeAcabaElTiempo": {
+    "consecuencia": "Te quedas en blanco. La mesa pasa al siguiente orador y la acusación queda en el aire como si fuera cierta.",
+    "explicacion": "Congelarse es una de las tres reacciones del instinto. Por eso conviene entrenar una primera frase automática, como «Tomamos esta información con seriedad»."
+  },
+  "inicio": "inicio",
+  "nodos": {
+    "inicio": {
+      "situacion": "«Última hora: informes de inteligencia señalan que tu país transfirió fondos a un grupo armado en la frontera.» Sientes calor en la cara. Un delegado rival sonríe. ¿Qué haces?",
+      "opciones": [
+        { "id": "a", "texto": "Levantas la placa y dices: «¡Eso es falso! El que financia grupos armados es justamente quien sonríe.»", "piloto": "instinto", "consecuencia": "El rival pide un derecho a réplica y la sesión se vuelve un pleito entre dos países. Tu bloque se incomoda.", "explicacion": "El instinto defendió el territorio con un contraataque. Abriste una guerra que nadie necesitaba.", "siguiente": "reaccion" },
+        { "id": "b", "texto": "Respiras, tomas nota de la fuente exacta y pides la palabra: «Tomamos esta información con seriedad y solicitamos ver las pruebas.»", "piloto": "razon", "consecuencia": "El comité se calma. Varios delegados asienten: pareces el adulto de la sala.", "explicacion": "Pausa y análisis: compraste tiempo sin negar ni atacar.", "siguiente": "razon" },
+        { "id": "c", "texto": "Le escribes un mensaje furioso a tu aliado: «¡Esto es una trampa! ¿Viste quién está detrás?»", "piloto": "emocion", "consecuencia": "Tu aliado te pide que te calmes. Mientras tanto, pierdes el turno para responder en público.", "explicacion": "La emoción dio la alarma y quedaste atrapado en ella. La alarma sirve como aviso, no como plan.", "siguiente": "reaccion" },
+        { "id": "d", "texto": "No dices nada y esperas a que otro tema tape la acusación.", "piloto": "instinto", "consecuencia": "El silencio se lee como culpa. Dos países piden sanciones contra tu delegación.", "explicacion": "Huir o congelarse también es instinto. El silencio, en crisis, también comunica.", "siguiente": "reaccion" }
+      ]
+    },
+    "razon": {
+      "situacion": "La mesa dice que la fuente es un informe todavía no verificado. El rival insiste: «¿Y por qué no lo niegan directamente?».",
+      "opciones": [
+        { "id": "e", "texto": "«Nuestra delegación no ha transferido fondos a ningún grupo armado. Importa porque está en juego la confianza regional. Proponemos una verificación independiente y abrimos nuestras cuentas a ella.»", "piloto": "razon", "consecuencia": "Tres países vecinos piden copatrocinar la verificación. El rival queda aislado.", "explicacion": "Ordenaste con ¿Qué? ¿Y qué? ¿Y ahora qué? y te aliaste con propuesta concreta." },
+        { "id": "f", "texto": "«Porque no tenemos que darle explicaciones a usted.»", "piloto": "instinto", "consecuencia": "Pierdes lo que habías ganado. El comité vuelve a desconfiar.", "explicacion": "El orgullo empujó al instinto en el segundo round. La pausa hay que sostenerla." },
+        { "id": "g", "texto": "«Lo negamos. Y además…» y hablas dos minutos de la historia de tu país sin proponer nada.", "piloto": "emocion", "consecuencia": "La mesa te corta por tiempo. Nadie recuerda qué propusiste.", "explicacion": "Tenías razón, pero sin estructura. Sin un «¿y ahora qué?», nadie te sigue." }
+      ]
+    },
+    "reaccion": {
+      "situacion": "El ambiente está tenso. La mesa abre un caucus moderado para «bajar la temperatura». Tienes 45 segundos.",
+      "opciones": [
+        { "id": "h", "texto": "«Reconocemos que nuestra primera respuesta fue impulsiva. Proponemos una verificación independiente e invitamos a los vecinos a acompañarla.»", "piloto": "razon", "consecuencia": "Recuperas parte de la confianza. Un país vecino se acerca después para trabajar contigo.", "explicacion": "La razón recuperó el volante tarde, pero lo recuperó. Reconocer el error también es liderazgo." },
+        { "id": "i", "texto": "Repites que todo es un complot y pides que expulsen al delegado rival.", "piloto": "instinto", "consecuencia": "La mesa te llama al orden. Tu bloque presenta el borrador sin ti.", "explicacion": "El instinto no suelta el volante solo: hay que quitárselo con una pausa." },
+        { "id": "j", "texto": "Cedes tu tiempo a la mesa porque ya no sabes qué decir.", "piloto": "emocion", "consecuencia": "Evitas empeorar, pero la acusación sigue sin respuesta.", "explicacion": "La vergüenza tomó el control. Un molde de tres partes te habría dado algo que decir." }
+      ]
+    }
+  },
+  "respuestaModelo": [
+    { "paso": "Pausa", "accion": "Exhalas largo antes de levantar la placa. Notas el calor en la cara y lo nombras." },
+    { "paso": "Analiza", "accion": "¿Qué dice exactamente el informe? ¿Quién lo impulsa? ¿Está verificado?" },
+    { "paso": "Ubica", "accion": "Tu país defiende la soberanía y apoya los mecanismos de verificación." },
+    { "paso": "Ordena", "accion": "Qué: no financiamos grupos armados. Y qué: está en juego la confianza regional. Y ahora qué: verificación independiente." },
+    { "paso": "Alíate", "accion": "Invitas a los vecinos a copatrocinarla. Nadie queda arrinconado." }
+  ]
+}

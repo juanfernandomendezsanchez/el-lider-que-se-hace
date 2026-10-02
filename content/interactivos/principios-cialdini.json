@@ -1,0 +1,20 @@
+{
+  "intro": "Toca un principio para ver por qué funciona y cómo se usa con honestidad en el comité.",
+  "porQue": "Por qué funciona",
+  "enMUN": "En el MUN",
+  "principios": [
+    { "id": "reciprocidad", "nombre": "Reciprocidad", "porQue": "Tendemos a devolver lo que recibimos.", "enMUN": "Ayuda primero: comparte datos, apoya una cláusula ajena, cede tiempo." },
+    { "id": "compromiso", "nombre": "Compromiso y coherencia", "porQue": "Queremos ser coherentes con lo que ya dijimos.", "enMUN": "Empieza con un sí pequeño: «¿estamos de acuerdo en que es urgente?»." },
+    { "id": "prueba-social", "nombre": "Prueba social", "porQue": "Seguimos lo que hacen otros parecidos a nosotros.", "enMUN": "«Ya firmaron doce países, tres de tu región» (si es verdad)." },
+    { "id": "autoridad", "nombre": "Autoridad", "porQue": "Confiamos en quien demuestra saber.", "enMUN": "Cita resoluciones previas y datos de agencias reconocidas." },
+    { "id": "simpatia", "nombre": "Simpatía", "porQue": "Decimos que sí a quien nos cae bien.", "enMUN": "Escucha de verdad y nunca ataques en público." },
+    { "id": "escasez", "nombre": "Escasez", "porQue": "Lo limitado se valora más.", "enMUN": "«Cerramos la lista de patrocinadores en este caucus» (si es real)." },
+    { "id": "unidad", "nombre": "Unidad", "porQue": "Apoyamos a los que sentimos como «nosotros».", "enMUN": "Habla de «nuestro bloque» o «nuestra región»." }
+  ],
+  "quizTitulo": "¿Qué principio es?",
+  "quiz": [
+    { "frase": "«Te paso las cifras de la FAO que buscabas. Cuando puedas, revisa nuestra cláusula 2.»", "respuesta": "reciprocidad", "explicacion": "Primero da algo de valor; el otro tiende a devolverlo." },
+    { "frase": "«Como delegaciones latinoamericanas, nos conviene llegar con una sola voz.»", "respuesta": "unidad", "explicacion": "Apela al «nosotros» regional." },
+    { "frase": "«La resolución 2417 del Consejo ya reconoció este vínculo.»", "respuesta": "autoridad", "explicacion": "Se apoya en un precedente reconocido." }
+  ]
+}
