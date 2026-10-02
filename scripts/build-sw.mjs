@@ -5,6 +5,8 @@ import fs from "node:fs";
 import path from "node:path";
 
 const OUT = path.resolve("out");
+// Subruta de publicación (GitHub Pages), la misma que usa next.config.ts.
+const BASE = process.env.BASE_PATH ?? "";
 const archivos = [];
 
 function recorrer(dir) {
@@ -30,12 +32,14 @@ const urls = archivos
     return rel.endsWith("/index.html") ? rel.slice(0, -"index.html".length) : rel;
   })
   .filter((u) => u !== "/404.html")
+  .map((u) => BASE + u)
   .sort();
 
 const version = hash.digest("hex").slice(0, 12);
 
 const sw = `// Generado por scripts/build-sw.mjs. No editar a mano.
 const VERSION = ${JSON.stringify(version)};
+const BASE = ${JSON.stringify(BASE)};
 const CACHE = "llqsh-" + VERSION;
 const PRECACHE = ${JSON.stringify(urls)};
 
@@ -76,7 +80,7 @@ self.addEventListener("fetch", (event) => {
           return res;
         })
         .catch(() =>
-          caches.match(conBarra(url.pathname)).then((r) => r || caches.match("/")),
+          caches.match(conBarra(url.pathname)).then((r) => r || caches.match(BASE + "/")),
         ),
     );
     return;

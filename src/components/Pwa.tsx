@@ -1,5 +1,6 @@
 "use client";
 
+import { BASE } from "@/lib/base";
 import { useEffect, useState } from "react";
 import { S, ui } from "@/lib/sitio";
 import { Icon } from "./ui/Icon";
@@ -16,7 +17,7 @@ export function RegistrarSW() {
 
   useEffect(() => {
     if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js").catch(() => {
+      navigator.serviceWorker.register(`${BASE}/sw.js`, { scope: `${BASE}/` }).catch(() => {
         /* sin service worker la plataforma funciona igual, solo que no sin conexión */
       });
     }

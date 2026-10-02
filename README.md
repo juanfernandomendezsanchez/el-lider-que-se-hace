@@ -40,4 +40,4 @@ El build se detiene con un mensaje claro si un archivo de `content/` tiene un er
 
 ## Despliegue
 
-`out/` es un sitio estático: se puede publicar en Vercel (con la configuración por defecto de Next.js) o en cualquier hosting estático.
+Cada push a `main` publica el sitio en GitHub Pages (`.github/workflows/pages.yml`), en la subruta `/el-lider-que-se-hace/`. La subruta se define con la variable `BASE_PATH`; sin ella, el sitio se compila para la raíz y `out/` sirve en cualquier hosting estático.

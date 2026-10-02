@@ -4,6 +4,7 @@ import { BottomNav, Header } from "@/components/ui/Nav";
 import { InsigniasWatcher } from "@/components/Insignias";
 import { RegistrarSW } from "@/components/Pwa";
 import { getJSON, getLecciones } from "@/content/load";
+import { BASE } from "@/lib/base";
 import { S } from "@/lib/sitio";
 import "./globals.css";
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
   description: S.descripcion,
   applicationName: S.nombre,
   appleWebApp: { capable: true, title: "Líder MUN", statusBarStyle: "default" },
-  icons: { apple: "/icons/apple-touch-icon.png" },
+  icons: { icon: `${BASE}/favicon.ico`, apple: `${BASE}/icons/apple-touch-icon.png` },
 };
 
 export const viewport: Viewport = {
